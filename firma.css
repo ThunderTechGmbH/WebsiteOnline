@@ -1,0 +1,82 @@
+.first-sec {
+    height: 1200px;
+    }
+.first-sec h3 {
+    margin-bottom: 20px;
+    }
+
+.darstellung_leistungskarten h3 {
+    margin-bottom: 20px;
+    margin-left: 50;
+    }
+
+.darstellung_leistungskarten p {
+    margin-left: 1px;
+    }
+
+.darstellung_leistungskarten i {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 50px;
+    margin-top: 15;
+    margin-left: -15px;
+    }
+
+.darstellung_leistungskarten img {
+    width: 65%;
+    height: 65%;
+    margin: 10px 10px;
+    }
+
+.leistungskartengruppe {
+    display: grid;
+    background-color: white;
+    margin-left: 25;
+    margin-bottom: 25;
+    float: left;
+    }
+
+.leistungskarte {
+    display: grid;
+    background-color: white;
+    width: 344px;
+    height: 242px;
+    margin-top: 50;
+    margin-left: 50;
+    margin-right: 50;
+    margin-bottom: 50;
+    float: left;
+    outline-width: 1px;
+    outline-style: solid;
+    outline-color: black;
+    }
+
+.karte_bild {
+    display: grid;
+    border: 1px solid black;
+    border-radius: 50%;
+    width: 62px;
+    height: 62px;
+    float: left;
+    }
+
+.karte_ueberschrift {
+    width: 276px;
+    height: 62px;
+    margin-left: 67px;
+    display: flex;
+    align-items: center;
+    margin-top: -62px;
+    }
+
+.karte_inhalt {
+    width: 276px;
+    height: 180px;
+    margin-left: 67px;
+    }
+    
+.karte_inhalt p {
+    text-align: justify;
+    }
