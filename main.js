@@ -45,10 +45,6 @@ menuBtn.addEventListener('click', () => {
     card2.classList.toggle('is-flipped2');
   });
 
-  card3.addEventListener("click", function (e) {
-    card3.classList.toggle('is-flipped3');
-  });
-
   const appearOptions = {
       threshhold: 1
   };
@@ -109,18 +105,7 @@ card2.addEventListener("mouseout", function (e) {
   Foto2.classList.toggle('show2');
   console.log ("Mousleave");
 });
-// Card 3
-card3.addEventListener("mouseover", function (e) {
-  Text3.classList.toggle('disappear3');
-  Foto3.classList.toggle('show3');
-  console.log ("Mouseenter");
-});
 
-card3.addEventListener("mouseout", function (e) {
-  Text3.classList.toggle('disappear3');
-  Foto3.classList.toggle('show3');
-  console.log ("Mousleave");
-});
 
 
     function visitPage(){
