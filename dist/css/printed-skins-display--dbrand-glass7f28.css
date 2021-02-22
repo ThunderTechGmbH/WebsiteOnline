@@ -57,7 +57,7 @@
     color: inherit
 }
 .dbm-printed-skins-display-blocks--dbrand-glass .mat-btn.highlight>.inner {
-    background: #fe9a20;
+    background: #3aafa9;
     background-image: linear-gradient(90deg, #fc8a00 5%, #da0000 14%, #a50093 24%, #7a0093 34%, #0000a7 66%, #0020dd 76%, #00aef5 86%, #00f8f5 96%, #00e8ea);
     background-size: 1000%;
     background-position-x: 0;
@@ -81,8 +81,8 @@
     max-width: 90rem
 }
 .dbm-printed-skins-display-blocks--dbrand-glass .dbv3-block--dbm-printed-skins-display--buy-bar {
-    box-shadow: 0 0 0 1px #eee, 0 0 0 3px #323232;
-    background: #fe9a20;
+    box-shadow: 0 0 0 1px #323232;
+    background: #3aafa9;
     color: #323232
 }
 .dbm-printed-skins-display-blocks--dbrand-glass .dbm-printed-skins-display-buy-bar {
@@ -104,7 +104,7 @@
     color: #eee
 }
 .dbm-printed-skins-display-blocks--dbrand-glass .dbm-printed-skins-display-countdown-block .countdown-display {
-    background: #fe9a20;
+    background: #3aafa9;
     color: #323232
 }
 .dbm-printed-skins-display-blocks--dbrand-glass .dbm-printed-skins-display-countdown-block .countdown-display>.inner {
@@ -144,13 +144,13 @@
 }
 .dbm-printed-skins-display-blocks--dbrand-glass .dbm-printed-skins-display-customizer .mat-input-el {
     border-radius: .2rem;
-    box-shadow: inset 0 0 0 2px #323232
+    box-shadow: inset 0 0 0 1px #323232
 }
 .dbm-printed-skins-display-blocks--dbrand-glass .dbm-printed-skins-display-customizer .mat-input-el:active, .dbm-printed-skins-display-blocks--dbrand-glass .dbm-printed-skins-display-customizer .mat-input-el:focus, .dbm-printed-skins-display-blocks--dbrand-glass .dbm-printed-skins-display-customizer .mat-input-el:hover {
-    box-shadow: inset 0 0 0 2px #fe9a20
+    box-shadow: inset 0 0 0 1px #3aafa9
 }
 .dbm-printed-skins-display-blocks--dbrand-glass .dbm-printed-skins-display-customizer .customizer-form .pui-submit-btn>.inner {
-    background: #fe9a20;
+    background: #3aafa9;
     background-image: linear-gradient(90deg, #fc8a00 5%, #da0000 14%, #a50093 24%, #7a0093 34%, #0000a7 66%, #0020dd 76%, #00aef5 86%, #00f8f5 96%, #00e8ea);
     background-size: 1000%;
     background-position-x: 0;
@@ -254,6 +254,7 @@
     font-size: 1.5em;
     text-transform: uppercase
 }
+/*
 .dbm-printed-skins-display-blocks--dbrand-glass .dbm-displayblock-hero .lines:after {
     display: block;
     height: 1rem;
@@ -266,6 +267,7 @@
     background-position-x: calc(var(--dbrand-glass--hero-scroll-p, 0)*100%);
     will-change: background-position
 }
+*/
 .dbm-printed-skins-display-blocks--dbrand-glass .dbm-displayblock-hero .line {
     margin: 0;
     line-height: 1
@@ -319,10 +321,10 @@
 }
 .dbm-printed-skins-display-blocks--dbrand-glass .dbm-printed-skins-display-product-request .mat-input-el {
     border-radius: .2rem;
-    box-shadow: inset 0 0 0 2px #323232
+    box-shadow: inset 0 0 0 1px #323232
 }
 .dbm-printed-skins-display-blocks--dbrand-glass .dbm-printed-skins-display-product-request .mat-input-el:active, .dbm-printed-skins-display-blocks--dbrand-glass .dbm-printed-skins-display-product-request .mat-input-el:focus, .dbm-printed-skins-display-blocks--dbrand-glass .dbm-printed-skins-display-product-request .mat-input-el:hover {
-    box-shadow: inset 0 0 0 2px #fe9a20
+    box-shadow: inset 0 0 0 1px #3aafa9
 }
 .dbm-printed-skins-display-blocks--dbrand-glass .dbv3-block--dbm-displayblock-square-feature>.block-content {
     padding: 20vmin 0
@@ -368,6 +370,7 @@
     --dbrand-glass--feature-scroll-p: calc((var(--parallax--capped, -1) + 1)/2);
     max-width: none
 }
+/*
 .dbm-printed-skins-display-blocks--dbrand-glass .dbm-displayblock-square-feature .image-wrapper:after {
     position: absolute;
     top: 100%;
@@ -382,6 +385,7 @@
     background-position-x: calc(var(--dbrand-glass--feature-scroll-p, 0)*100%);
     will-change: background-position
 }
+*/
 .dbm-printed-skins-display-blocks--dbrand-glass .dbm-displayblock-square-feature .dbm-displayblock-img {
     box-shadow: none
 }
@@ -411,8 +415,8 @@
     }
 }
 .dbm-printed-skins-display-blocks--dbrand-glass .dbv3-block--dbm-displayblock-square-feature--dbrand-glass--wagyu {
-    box-shadow: 0 0 0 1px #eee, 0 0 0 3px #323232;
-    background: #fe9a20;
+    box-shadow: 0 0 0 1px #323232;
+    background: #3aafa9;
     color: #323232
 }
 .dbm-printed-skins-display-blocks--dbrand-glass .dbv3-block--dbm-displayblock-square-feature--dbrand-glass--wagyu>.block-content {
@@ -425,9 +429,9 @@
     background-position-x: calc((1 - var(--dbrand-glass--feature-scroll-p, 0))*100%)
 }
 .dbm-printed-skins-display-blocks--dbrand-glass .dbv3-block--dbm-displayblock-square-gallery {
-    box-shadow: 0 0 0 1px #eee, 0 0 0 3px #323232;
+    box-shadow: 0 0 0 1px #323232;
     position: relative;
-    background: #fe9a20;
+    background: #3aafa9;
     color: #323232;
     z-index: 1
 }

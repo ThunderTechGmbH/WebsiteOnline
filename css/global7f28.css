@@ -566,7 +566,6 @@ img {
     flex-grow: 1;
     margin: 0;
     width: 100%;
-    background:;
     transition: transform .2s
 }
 .l-page .l-page-overlay {
@@ -577,7 +576,6 @@ img {
     left: 0;
     z-index: 134;
     visibility: hidden;
-    background-color:;
     opacity: 0;
     transition: opacity .2s, visibility 0ms .2s
 }
@@ -595,7 +593,6 @@ img {
     max-width: 50rem;
     margin: 0 auto;
     padding: 0;
-    background: ;
     color: #fff
 }
 .l-page--minimal .l-content, .l-page--minimal .l-main-title {
@@ -945,7 +942,7 @@ form>div>.messages.error {
     max-width: 80rem;
     display: flex;
     flex-wrap: wrap;
-    justify-content: flex-start;
+    justify-content: center;
     margin: 0 auto;
     padding: 0;
     list-style: none outside none;
@@ -997,7 +994,7 @@ form>div>.messages.error {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     color: inherit;
-    content: "🏠"
+    content: "🗲"
 }
 .breadcrumb-list .itm:last-child .nolink:after, .breadcrumb-list .itm:last-child a:after {
     content: none
