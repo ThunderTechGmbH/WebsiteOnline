@@ -1,0 +1,233 @@
+
+.dbm-displayblock-hero {
+    display: flex;
+    align-items: flex-start;
+    min-height: 75vh
+}
+.dbm-displayblock-hero.align-x--right {
+    justify-content: flex-end
+}
+.dbm-displayblock-hero.align-x--center {
+    justify-content: center;
+    text-align: center
+}
+.dbm-displayblock-hero .content {
+    width: 100%;
+    max-width: 30em;
+    padding-bottom: 1em
+}
+.dbm-displayblock-hero .title {
+    letter-spacing: .05em;
+    margin: 0 0 .5em;
+    font-size: 3em;
+    letter-spacing: .1em
+}
+.dbm-displayblock-hero .title:last-child {
+    margin-bottom: 0
+}
+.dbm-displayblock-hero .lines {
+    margin-bottom: 2em;
+    padding: 0 .125em;
+    font-size: 1.5em;
+    font-weight: 200
+}
+.dbm-displayblock-hero .lines:last-child {
+    margin-bottom: 0
+}
+.dbm-displayblock-hero .line {
+    margin: .5em 0
+}
+.dbm-displayblock-hero .mat-btn {
+    font-size: 1.25em
+}
+@media (min-width:48em) {
+    .dbm-displayblock-hero {
+        align-items: center;
+        min-height: 70vh
+    }
+    .dbm-displayblock-hero .title {
+        font-size: 4em
+    }
+}
+.dbv3-block--dbm-display-block--hero {
+    background: #fff
+}
+.dbv3-block--dbm-display-block--hero>.block-bg {
+    margin: 0 auto
+}
+.dbv3-block--dbm-display-block--hero>.block-bg .dbv3-lazy-loader--img--target {
+    background-position: 50%;
+    background-size: cover
+}
+.dbv3-block--dbm-display-block--hero>.block-content {
+    padding-top: 6vh;
+    padding-bottom: 6vh
+}
+@media (min-width:90em) {
+    .dbv3-block--dbm-display-block--hero>.block-bg .dbv3-lazy-loader--img--target {
+        background-position: 50% 100%;
+        background-size: contain
+    }
+}
+.dbm-displayblock-simple-feature {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center
+}
+.dbm-displayblock-simple-feature .line, .dbm-displayblock-simple-feature .title {
+    margin: 0
+}
+.dbm-displayblock-simple-feature .dbm-displayblock-img {
+    display: block
+}
+.dbm-displayblock-square-feature {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: -4vmin
+}
+.dbm-displayblock-square-feature>* {
+    max-width: 100%;
+    padding: 4vmin
+}
+.dbm-displayblock-square-feature .copy-wrapper {
+    width: 100%
+}
+.dbm-displayblock-square-feature .copy {
+    max-width: 35em;
+    margin: 0 auto;
+    padding: 0 1em;
+    letter-spacing: .01em
+}
+.dbm-displayblock-square-feature .title {
+    font-size: 2.25em;
+    font-weight: 600;
+    letter-spacing: .025em;
+    text-transform: uppercase;
+    margin: 0
+}
+.dbm-displayblock-square-feature .lines {
+    position: relative;
+    margin-top: 3rem
+}
+.dbm-displayblock-square-feature .lines:before {
+    width: 100%;
+    max-width: 3rem;
+    height: .75rem;
+    background: #fb0;
+    position: absolute;
+    bottom: 100%;
+    left: -.6rem;
+    margin-bottom: 1.125rem;
+    content: ""
+}
+.dbm-displayblock-square-feature .line {
+    margin: 0
+}
+.dbm-displayblock-square-feature .line+.line {
+    margin-top: 1em
+}
+.dbm-displayblock-square-feature .image-wrapper {
+    width: 100%;
+    max-width: 36em
+}
+.dbm-displayblock-square-feature .dbm-displayblock-img {
+    box-shadow: 0 .5em 2em rgba(0, 0, 0, .1);
+    display: block;
+    margin: 0 auto
+}
+@media (min-width:48em) {
+    .dbm-displayblock-square-feature.align-x--right .copy-wrapper {
+        order: 2
+    }
+}
+@media (min-width:48em) {
+    .dbm-displayblock-square-feature.img-align-y--top .image-wrapper {
+        align-self: flex-start
+    }
+}
+@media (min-width:48em) {
+    .dbm-displayblock-square-feature.img-align-y--bottom .image-wrapper {
+        align-self: flex-end
+    }
+}
+@media (min-width:48em) {
+    .dbm-displayblock-square-feature {
+        flex-direction: row
+    }
+    .dbm-displayblock-square-feature .copy-wrapper {
+        flex-grow: 3;
+        width: 25em
+    }
+    .dbm-displayblock-square-feature .lines:before {
+        left: 0
+    }
+    .dbm-displayblock-square-feature .image-wrapper {
+        flex-grow: 1;
+        width: 40%
+    }
+}
+.dbv3-block--dbm-displayblock-square-feature>.block-content {
+    padding-top: 10vh;
+    padding-bottom: 10vh
+}
+.dbv3-block--dbm-displayblock-square-feature+.dbv3-block--dbm-displayblock-square-feature>.block-content {
+    padding-top: 0
+}
+.dbm-displayblock-square-gallery .gallery-title-wrapper {
+    margin: 0 0 2.25em;
+    text-align: center
+}
+.dbm-displayblock-square-gallery .gallery-title {
+    font-size: 2.25em;
+    font-weight: 600;
+    letter-spacing: .025em;
+    text-transform: uppercase;
+    margin: 0
+}
+.dbm-displayblock-square-gallery .image-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: -.75em;
+    padding: 0;
+    list-style-type: none
+}
+.dbm-displayblock-square-gallery .image-item {
+    position: relative;
+    box-shadow: 0 .5em 2em rgba(0, 0, 0, .1);
+    flex: 1 1 12em;
+    width: 20em;
+    max-width: 100%;
+    margin: .75em;
+    background: #fff
+}
+.dbm-displayblock-square-gallery .image-item:before {
+    display: block;
+    position: relative;
+    width: 100%;
+    height: 0;
+    padding-top: 100%;
+    content: ""
+}
+.dbm-displayblock-square-gallery .image-item>.gallery-image {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0
+}
+.dbm-displayblock-square-gallery .image-item .dbv3-lazy-loader--img--target {
+    background-size: cover
+}
+.dbm-displayblock-square-gallery .image-item:nth-child(n) {
+    display: none
+}
+.dbm-displayblock-square-gallery .image-item:first-child, .dbm-displayblock-square-gallery .image-item:nth-child(2), .dbm-displayblock-square-gallery .image-item:nth-child(3) {
+    display: block
+}
+.dbv3-block--dbm-displayblock-square-gallery>.block-content {
+    padding: 4em 0
+}
