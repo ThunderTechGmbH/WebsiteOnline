@@ -14,7 +14,7 @@
     src: url(https://dbrand.com/sites/all/themes/dbrand_v3/dist/fonts/05641d6dc9f79588d425e7786f48fdfa.woff2) format("woff2"), url(https://dbrand.com/sites/all/themes/dbrand_v3/dist/fonts/e5997328820c2877135ca7ac237651eb.woff) format("woff")
 }
 .dbm-printed-skins-display-blocks--dbrand-glass, .dbm-printed-skins-display-blocks--dbrand-glass .dbm-displayblock .title {
-    font-family: DbrandGlassText, Helvetica, Arial, sans-serif;
+    font-family:Helvetica;
     font-style: normal;
     font-weight: 400;
     line-height: 1.25
