@@ -1,5 +1,6 @@
 const menuBtn = document.querySelector('.menu-btn');
 const menuItems = document.querySelector(".menu-items");
+const body =document.querySelector("body")
 const card = document.querySelector(".card__inner");
 const card1 = document.querySelector(".card__inner1");
 const card2 = document.querySelector(".card__inner2");
@@ -30,6 +31,7 @@ window.onload = function () {
 menuBtn.addEventListener('click', () => {
     menuBtn.classList.toggle('open');
     menuItems.classList.toggle('open');
+    body.classList.toggle('noScroll');
   
 });
 
