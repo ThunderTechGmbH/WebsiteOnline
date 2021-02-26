@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/styleWe.css">
     <script src="main.js" defer></script>
         <title>Contact Us</title>
     </head>
@@ -17,7 +17,7 @@
 </div>
     <header class="header">
         <div href="#">
-            <img src="Flash.png" alt="Pic" height="50px" width="50px" >
+            <img src="pic/Flash.png" alt="Pic" height="50px" width="50px" >
         </div>
       <div class="menu-btn">
         <div class="menu-btn__lines"></div>
