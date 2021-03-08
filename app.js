@@ -5,28 +5,20 @@ window.addEventListener('scroll', function() {
     if(window.scrollY < 4000) {
         elem.classList.add('hidden-nav');
         elem.classList.remove('show-nav');
+
+        button.classList.add('hidden-nav');
+        button.classList.remove('show-nav');
     }
 });
 
 window.addEventListener('scroll', function() {
     if(window.scrollY > 4000) {
         elem.classList.remove('hidden-nav');
-        elem.classList.add('show-nav');     
+        elem.classList.add('show-nav');
+        
+        button.classList.remove('hidden-nav');
+        button.classList.add('show-nav');
     }
-});
-
-window.addEventListener('scroll', function() {
-  if(window.scrollY < 4000) {
-      button.classList.add('hidden-nav');
-      button.classList.remove('show-nav');
-  }
-});
-
-window.addEventListener('scroll', function() {
-  if(window.scrollY > 4000) {
-      button.classList.remove('hidden-nav');
-      button.classList.add('show-nav');     
-  }
 });
 
 // Video Section
