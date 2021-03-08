@@ -2169,3 +2169,6 @@ body>div>.klaviyo-form * {
         font-size: 2em
     }
 }
+.block-content.hide {
+    display: none;
+}
