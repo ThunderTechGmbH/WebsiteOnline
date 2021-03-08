@@ -6,6 +6,7 @@ const card1 = document.querySelector(".card__inner1");
 const card2 = document.querySelector(".card__inner2");
 const card3 = document.querySelector(".card__inner3");
 const fader = document.querySelectorAll(".fade-in");
+var block = document.getElementById("buy-block");
 
 let menuOpen = false;
 
@@ -17,6 +18,12 @@ menuBtn.addEventListener('click', () => {
     menuBtn.classList.toggle('open');
     menuItems.classList.toggle('open');
     body.classList.toggle('noScroll');
+
+    if (block.style.display === "none") {
+      block.style.display = "block";
+    } else {
+      block.style.display = "none";
+    }
   
 });
 
