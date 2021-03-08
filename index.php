@@ -1,10 +1,15 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="css/style.css">
-    <script src="main.js" defer></script>
+        <meta charset="utf-8" />
+        <link rel="profile" href="https://www.w3.org/1999/xhtml/vocab" />
+        <meta name="HandheldFriendly" content="true" />
+        <meta name="MobileOptimized" content="width" />
+        <meta http-equiv="cleartype" content="on" />
+        <meta name="viewport" content="width=device-width, user-scalable=no, shrink-to-fit=no, minimum-scale=1.0" />
+        <meta name="theme-color" content="#000000" />
+        <link rel="stylesheet" href="css/global7f28.css?qokpwb" media="all" />
+        <script src="main.js" defer></script>
         <title>Contact Us</title>
     </head>
     <body>
