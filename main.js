@@ -27,54 +27,8 @@ menuBtn.addEventListener('click', () => {
   
 });
 
-  const appearOptions = {
-      threshhold: 1
-  };
-
-  const appearOnScroll = new IntersectionObserver
-  (function(
-    entries,
-    appearOnScroll
-    ) {
-        entries.forEach(entry => {
-            if (!entry.isIntersecting) {
-                return;
-            } else {
-                entry.target.classList.add('appear');
-                appearOnScroll.unobserve(entry.target);
-            }
-        })
-    }, 
-    appearOptions);
-
-    fader.forEach(fader => {
-        appearOnScroll.observe(fader);
-    });
-
     function visitPage(){
         window.location='index.php';
     }
   
-
-    window.addEventListener('resize', function(e){
-
-      var width = {
-        width: window.innerWidth || document.body.clientWidth,
-      }
-
-      const widthNum = (Object.values(width))
-
-      var element = document.getElementById('card'),
-      style = window.getComputedStyle(element),
-      margin = style.getPropertyValue('margin'); 
-
-      console.log(widthNum);
-
-       if (widthNum > 960) {
-         if (widthNum > widthNum - 1) {
-          console.log (margin)
-         }
-
-      }
-      });
     
