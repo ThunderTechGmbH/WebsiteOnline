@@ -81,6 +81,7 @@ body.noScroll {
 
 .header {
 	position: fixed;
+	height: 80px;
 	top: 0;
 	left: 0;
 	right: 0;
@@ -252,7 +253,7 @@ footer a {
 	width: 1.5rem;
 	height: 0.1rem;
 	background-color: #111111;
-	transition: all 0.5s ease-in-out;
+	transition: all 0.3s ease-in-out;
 }
 .menu-btn__lines::before,
 .menu-btn__lines::after {
@@ -288,18 +289,18 @@ footer a {
 .menu-items {
 	flex-direction: column;
 	justify-content: absolute;
-	position: absolute;
+	position: fixed;
 	top: 0;
 	right: 0;
 	left: 0;
 	height: 100vh;
-	transform: translateX(100vw);
+	display: none;
 	background-color: #ffffff;
 	transition: transform 0.3s ease-in-out;
 }
 
 .menu-items.open {
-	transform: translateX(0);
+	display: flex;
 }
 .menu-items li {
 	width: 100vw;
