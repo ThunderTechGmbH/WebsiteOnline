@@ -130,14 +130,14 @@ body.noScroll {
 	visibility: visible;
 }
 
-.menu-btn__lines.hidden-nav {
+.menu-btn.hidden-nav {
 	opacity: 0;
    transition: opacity .25s ease-in-out;
    -webkit-transition: opacity .25s ease-in-out;
    visibility: hidden;
 }
 
-.menu-btn__lines.show-nav {
+.menu-btn.show-nav {
 	animation: fadeIn ease 1s;
 	-webkit-animation: fadeIn ease 1s;
 	visibility: visible;
