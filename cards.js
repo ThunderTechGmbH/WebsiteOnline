@@ -65,3 +65,7 @@ card2.addEventListener("mouseout", function (e) {
     Foto2.classList.toggle('show2');
     console.log ("Mousleave");
 });
+
+function togglePopup(){
+    document.getElementById("popup-1").classList.toggle("active");
+  }

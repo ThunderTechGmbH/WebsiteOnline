@@ -61,8 +61,8 @@
                 <button type="submit" name="submit" id="buttonS">Send</button>
                 </div>
                 </div>
-            </section>
             </form>
+          </section>
         </main>
     </body>
 </html>
