@@ -27,8 +27,8 @@ menuBtn.addEventListener('click', () => {
   
 });
 
-    // function visitPage(){
-    //  window.location='index.php';
-   //  }
+    //  function visitPage(){
+    //    window.location='index.php';
+    //  }
   
     

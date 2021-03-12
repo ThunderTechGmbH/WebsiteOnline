@@ -47,6 +47,32 @@
 </h1>
 <div class="l-content">
 <article role="article" class="node node--dbm-printed-skins-display">
+    
+    <div class="popup" id="popup-1">
+        <div class="popup-overlay"></div>
+        <div class="popup-content">
+          <div class="popup-close-btn" onclick="togglePopup()">&times;</div>
+            <div class="Contact login-wrapper">
+                <form class="contact-form" action="contactform.php" method="post">
+                  <div class="input-group">
+                    <input type="text" name="name" placeholder="Full Name">
+                    </div>
+                    <div class="input-group">
+                    <input type="text" name="mail" placeholder="Your E-mail">
+                    </div>
+                    <div class="input-group">
+                    <input type="text" name="subject" placeholder="Subject">
+                    </div>
+                    <div class="input-group">
+                    <textarea name="message" placeholder="Message"></textarea>
+                    </div>
+                    <button type="submit" name="submit" id="buttonS">Send</button>
+                    </div>
+                    </div>
+                </form>
+        </div>
+      </div>
+
 <div class="dbm-printed-skins-display-blocks dbm-printed-skins-display-blocks--dbrand-glass">
 <div class="blocks-section blocks-section--intro">
 <div class="dbv3-block dbv3-block--dbm-displayblock-hero has-bg produkteSec">
@@ -81,7 +107,7 @@
 <h3 class="title">Buy Custom Product</h3>
 </div>
 <div class="actions">
-<a value="Buy" class="mat-btn mat-btn--light highlight" type="button" href="#" onclick="visitPage();">
+<a value="Buy" class="mat-btn mat-btn--light highlight" type="button" onclick="togglePopup()"; style="cursor:pointer;">
 <span class="inner">
 <span class="label"><span class="label-txt">Contact US</span></span>
 </span>
@@ -117,7 +143,7 @@
 <div class="copy">
 <h2 class="title">Retro</h2>
 <div class="lines">
-<p class="line">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit</p>
+<p class="line">Mit dem RetroPie können sie hunderte Spiele aus ihrer Kindheit wieder zum Leben erwecken.<br/>Suchen sie sich einfach ihr Spiel aus und starten den entsprechenden Emulator. Innerhalb von Minuten können sie in ihre Lieblings Retrogames eintauchen und alles was sie benötigen ist der Retropie, die entsprechenden ROM’s und ihren bevorzugten Controller</p>
 </div>
 </div>
 </div>
@@ -238,7 +264,7 @@
 <h3 class="title">Buy Custom Products</h3>
 </div>
 <div class="actions">
-<a value="Buy" class="mat-btn mat-btn--light highlight" type="button" href="#dbm-printed-skins-display-entrypoints-block">
+<a value="Buy" class="mat-btn mat-btn--light highlight" type="button" href="#dbm-printed-skins-display-entrypoints-block" onclick="togglePopup()">
 <span class="inner">
 <span class="label"><span class="label-txt">Contact Us</span></span>
 </span>
