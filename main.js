@@ -27,8 +27,21 @@ menuBtn.addEventListener('click', () => {
   
 });
 
+window.addEventListener('resize', function(e){
+
+  var width = {
+    width: window.innerWidth || document.body.clientWidth,
+  }
+
+  const widthNum = (Object.values(width))
+
+  if (widthNum > 767) {
+    block.style.display = "none";
+  } else {
+    block.style.display = "block";
+  }
+})
+
     //  function visitPage(){
     //    window.location='index.php';
     //  }
-  
-    
