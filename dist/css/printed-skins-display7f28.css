@@ -240,7 +240,7 @@
     margin-left: -.75em;
     transform: scale(0);
     transition: transform .2s, opacity .2s;
-    background: linear-gradient(90deg, #fb0, #fb0 20%, #343434 0, #343434 40%, #eeeef0 0, #eeeef0 60%, #343434 0, #343434 80%, #fb0 0, #fb0);
+    background: linear-gradient(90deg, #3aafa9, #3aafa9 20%, #343434 0, #343434 40%, #eeeef0 0, #eeeef0 60%, #343434 0, #343434 80%, #3aafa9 0, #3aafa9);
     background-position: 0 50%;
     background-size: 500% 100%;
     box-shadow: 0 .1rem .5rem -.1rem #000, 0 .1rem .5rem -.1rem #000;
@@ -1080,7 +1080,7 @@ html.has-dbm-printed-skins-panel .dbm-printed-skins-display-entrypoint .pui-clos
     width: 100%;
     max-width: 3rem;
     height: .75rem;
-    background: #fb0;
+    background: #3aafa9;
     position: absolute;
     bottom: -.75rem;
     left: 50%;
@@ -1132,7 +1132,7 @@ html.has-dbm-printed-skins-panel .dbm-printed-skins-display-entrypoint .pui-clos
     right: 0;
     bottom: 0;
     left: 0;
-    border: .2em solid #fb0;
+    border: .2em solid #3aafa9;
     border-radius: inherit;
     content: ""
 }
@@ -1383,7 +1383,7 @@ html.has-dbm-printed-skins-panel .dbm-printed-skins-display-entrypoint .pui-clos
     margin: .4em auto;
     border: .17333em solid;
     border-radius: 1.5em;
-    color: #fb0;
+    color: #3aafa9;
     font-size: 3.75em;
     line-height: 1.5em;
     content: "✓"
@@ -1425,7 +1425,7 @@ html.has-dbm-printed-skins-panel .dbm-printed-skins-display-entrypoint .pui-clos
     margin-left: -.75em;
     transform: scale(0);
     transition: transform .2s, opacity .2s;
-    background: linear-gradient(90deg, #fb0, #fb0 20%, #343434 0, #343434 40%, #eeeef0 0, #eeeef0 60%, #343434 0, #343434 80%, #fb0 0, #fb0);
+    background: linear-gradient(90deg, #3aafa9, #3aafa9 20%, #343434 0, #343434 40%, #eeeef0 0, #eeeef0 60%, #343434 0, #343434 80%, #3aafa9 0, #3aafa9);
     background-position: 0 50%;
     background-size: 500% 100%;
     box-shadow: 0 .1rem .5rem -.1rem #000, 0 .1rem .5rem -.1rem #000;
