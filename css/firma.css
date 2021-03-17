@@ -143,6 +143,16 @@ body {
     grid-row: 5 / 5;
     }
 
+.mitarbeiter_erklaerung{
+    grid-column: 1 / 1;
+    grid-row: 1 / 6;
+    background-color: var(--light);
+    border: 1px solid black;
+    width: 300px;
+    height: 400px;
+    margin-bottom: 50px;
+    }
+
 .mitarbeiterkarte{
     display: grid;
     grid-column: 1 / 1;
