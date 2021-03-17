@@ -69,3 +69,9 @@ card2.addEventListener("mouseout", function (e) {
 function togglePopup(){
     document.getElementById("popup-1").classList.toggle("active");
   }
+
+document.getElementById("buttonS").addEventListener("click", submitClicked)
+
+function submitClicked() {
+    alert ("Mail Send")
+}
