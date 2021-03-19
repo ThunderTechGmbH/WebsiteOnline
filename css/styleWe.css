@@ -1127,3 +1127,13 @@ hr {
     margin: 40px auto 80px auto;
     font-size: 1.75em;
 }
+
+.carousel-container {
+	width: 60%;
+	overflow: hidden;
+}
+
+.carousel-slide {
+display: flex;
+width: 100%;
+}

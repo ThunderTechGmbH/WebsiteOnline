@@ -20,6 +20,7 @@
 <script src="main.js" defer></script>
 <script src="produkte.js" defer></script>
 <script src="store.js" defer></script>
+<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
 </head>
 <body>
 <a href="#main-content" class="element-invisible element-focusable">Skip to main content</a>
@@ -87,7 +88,7 @@
 <div class="dbm-displayblock dbm-displayblock-hero align-x--left">
 <div class="content">
 <div class="lines">
-<p class="line">Pi</p>
+<!-- Where The Text Goes -->
 </div>
 <div class="actions">
 <a value="Buy" class="mat-btn mat-btn--light highlight" type="button" href="#dbm-printed-skins-display-entrypoints-block">
@@ -171,7 +172,19 @@
 <div class="image-wrapper">
 <div class="dbv3-lazy-loader--img dbm-displayblock-img" style="width:720px;">
 <div class="dbv3-lazy-loader--img--spacer" style="padding-top:0%; margin-left: 80px;"></div>
-<img src="pic/RetroPieLogo.png" />
+<div class="carousel-container">
+    <i class="fas fa-angle-left" id="prevBtn"></i>
+    <i class="fas fa-angle-right" id="nextBtn"></i>
+
+    <div class="carousel-slide">
+        <img src="pic/Flash.png" id="lastImg" alt="">
+        <img src="pic/Flash.png" alt="">
+        <img src="pic/Camara-Pi.png" alt="">
+        <img src="pic/Flash.png" alt="">
+        <img src="pic/Flash.png" id="firstImg" alt="">
+    </div>
+</div>
+
 </div>
 </div>
 </div>
@@ -278,7 +291,7 @@
     <div class="shop-items">
         <div class="shop-item">
             <span class="shop-item-title">1</span>
-            <img class="shop-item-image" src="Images/Album 1.png">
+            <img class="shop-item-image" src="pic/Pi.png">
             <div class="shop-item-details">
                 <span class="shop-item-price">$12.99</span>
                 <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
@@ -286,7 +299,7 @@
         </div>
         <div class="shop-item">
             <span class="shop-item-title">2</span>
-            <img class="shop-item-image" src="Images/Album 2.png">
+            <img class="shop-item-image" src="pic/Pi.png">
             <div class="shop-item-details">
                 <span class="shop-item-price">$14.99</span>
                 <button class="btn btn-primary shop-item-button"type="button">ADD TO CART</button>
@@ -294,7 +307,7 @@
         </div>
         <div class="shop-item">
             <span class="shop-item-title">3</span>
-            <img class="shop-item-image" src="Images/Album 3.png">
+            <img class="shop-item-image" src="pic/Pi.png">
             <div class="shop-item-details">
                 <span class="shop-item-price">$9.99</span>
                 <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
@@ -302,7 +315,7 @@
         </div>
         <div class="shop-item">
             <span class="shop-item-title">4</span>
-            <img class="shop-item-image" src="Images/Album 4.png">
+            <img class="shop-item-image" src="pic/Pi.png">
             <div class="shop-item-details">
                 <span class="shop-item-price">$19.99</span>
                 <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
