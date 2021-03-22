@@ -83,16 +83,22 @@ const prevBtn = document.querySelector("#prevBtn");
 const nextBtn = document.querySelector("#nextBtn");
 
 let counter = 1;
-const size = carouselImages[0].clientWidth;
+let size = carouselImages[0].clientWidth;
+
+window.addEventListener('resize', () => {
+  carouselSlide.style.transition = "none";
+  size = carouselImages[0].clientWidth;
+  carouselSlide.style.transform = 'translateX(' + (-size * counter) + 'px)';
+});
 
 carouselSlide.style.transform ="translateX(" + (-size * counter) + "px)";
 
-nextBtn.addEventListener("click", () => {
+function slide (){
     if(counter >= carouselImages.length -1) return;
-    carouselSlide.style.transition = "transform 0.4s ease-in-out";
+    carouselSlide.style.transition = "transform 0.6s ease-in-out";
     counter++;
     carouselSlide.style.transform = "translateX(" + (-size * counter) + "px)";
-});
+};
 
 prevBtn.addEventListener("click", () => {
     if (counter <= 0) return;
@@ -113,3 +119,54 @@ carouselSlide.addEventListener("transitionend", () => {
         carouselSlide.style.transform = "translateX(" + (-size * counter) + "px)";
     }
 });
+
+
+
+const textDisplay = document.getElementById('text')
+const phrases = ['Why are you here?' , "Oh I know why"]
+let i = 0
+let j = 0 
+let currentPhrase = []
+let isDeleting = false
+let isEnd = false
+
+function loop () {
+  isEnd = false
+  textDisplay.innerHTML = currentPhrase.join('')
+
+  if (i < phrases.length) {
+
+    if (!isDeleting && j <= phrases[i].length) {
+      currentPhrase.push(phrases[i][j])
+      j++
+      textDisplay.innerHTML = currentPhrase.join('')
+    }
+
+    if(isDeleting && j <= phrases[i].length) {
+      currentPhrase.pop(phrases[i][j])
+      j--
+      textDisplay.innerHTML = currentPhrase.join('')
+    }
+
+    if (j == phrases[i].length) {
+      isEnd = true
+      isDeleting = true
+    }
+
+    if (isDeleting && j === 0) {
+      currentPhrase = []
+      isDeleting = false
+      i++
+      slide()
+      if (i === phrases.length) {
+        i = 0
+      }
+    }
+  }
+  const spedUp = Math.random() * (80 -50) + 50
+  const normalSpeed = Math.random() * (300 -200) + 200
+  const time = isEnd ? 2000 : isDeleting ? spedUp : normalSpeed
+  setTimeout(loop, time)
+}
+
+loop ()
