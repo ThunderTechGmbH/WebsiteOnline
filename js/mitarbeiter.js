@@ -23,6 +23,31 @@ var info5 = document.getElementById("mitarbeiter5");
 info5.style.display =  "none"; //Inhalt ausblenden
 info5.style.zIndex = 999;
 
+/*Mitarbeiterkarte 6 ausgeblenden*/
+var info6 = document.getElementById("mitarbeiter6");
+info6.style.display =  "none"; //Inhalt ausblenden
+info6.style.zIndex = 999;
+
+/*Mitarbeiterkarte 7 ausgeblenden*/
+var info7 = document.getElementById("mitarbeiter7");
+info7.style.display =  "none"; //Inhalt ausblenden
+info7.style.zIndex = 999;
+
+/*Mitarbeiterkarte 8 ausgeblenden*/
+var info8 = document.getElementById("mitarbeiter8");
+info8.style.display =  "none"; //Inhalt ausblenden
+info8.style.zIndex = 999;
+
+/*Mitarbeiterkarte 9 ausgeblenden*/
+var info9 = document.getElementById("mitarbeiter9");
+info9.style.display =  "none"; //Inhalt ausblenden
+info9.style.zIndex = 999;
+
+/*Mitarbeiterkarte 6 ausgeblenden*/
+var info10 = document.getElementById("mitarbeiter10");
+info10.style.display =  "none"; //Inhalt ausblenden
+info10.style.zIndex = 999;
+
 /*Mitarbeiterkarte 1 Anzeigen und die anderen Schließen*/
 function button1Show(){
     info1.style.display = "";
@@ -30,6 +55,11 @@ function button1Show(){
     info3.style.display = "none";
     info4.style.display = "none";
     info5.style.display = "none";
+    info6.style.display = "none";
+    info7.style.display = "none";
+    info8.style.display = "none";
+    info9.style.display = "none";
+    info10.style.display = "none";
     }
 
 /*Mitarbeiterkarte 2 Anzeigen und die anderen Schließen*/
@@ -39,6 +69,11 @@ function button2Show(){
     info3.style.display = "none";
     info4.style.display = "none";
     info5.style.display = "none";
+    info6.style.display = "none";
+    info7.style.display = "none";
+    info8.style.display = "none";
+    info9.style.display = "none";
+    info10.style.display = "none";
     }
 
 /*Mitarbeiterkarte 3 Anzeigen und die anderen Schließen*/
@@ -48,6 +83,11 @@ function button3Show(){
     info3.style.display = "";
     info4.style.display = "none";
     info5.style.display = "none";
+    info6.style.display = "none";
+    info7.style.display = "none";
+    info8.style.display = "none";
+    info9.style.display = "none";
+    info10.style.display = "none";
     }
 
 /*Mitarbeiterkarte 4 Anzeigen und die anderen Schließen */
@@ -57,6 +97,11 @@ function button4Show(){
     info3.style.display = "none";
     info4.style.display = "";
     info5.style.display = "none";
+    info6.style.display = "none";
+    info7.style.display = "none";
+    info8.style.display = "none";
+    info9.style.display = "none";
+    info10.style.display = "none";
     }
 
 /*Mitarbeiterkarte 5 Anzeigen und die anderen Schließen*/
@@ -66,4 +111,79 @@ function button5Show(){
     info3.style.display = "none";
     info4.style.display = "none";
     info5.style.display = "";
+    info6.style.display = "none";
+    info7.style.display = "none";
+    info8.style.display = "none";
+    info9.style.display = "none";
+    info10.style.display = "none";
     }
+
+/*Mitarbeiterkarte 6 Anzeigen und die anderen Schließen*/
+function button6Show(){
+    info1.style.display = "none";
+    info2.style.display = "none";
+    info3.style.display = "none";
+    info4.style.display = "none";
+    info5.style.display = "none";
+    info6.style.display = "";
+    info7.style.display = "none";
+    info8.style.display = "none";
+    info9.style.display = "none";
+    info10.style.display = "none";
+    }
+    
+/*Mitarbeiterkarte 7 Anzeigen und die anderen Schließen*/
+function button7Show(){
+    info1.style.display = "none";
+    info2.style.display = "none";
+    info3.style.display = "none";
+    info4.style.display = "none";
+    info5.style.display = "none";
+    info6.style.display = "none";
+    info7.style.display = "";
+    info8.style.display = "none";
+    info9.style.display = "none";
+    info10.style.display = "none";
+    }
+    
+/*Mitarbeiterkarte 8 Anzeigen und die anderen Schließen*/
+function button8Show(){
+    info1.style.display = "none";
+    info2.style.display = "none";
+    info3.style.display = "none";
+    info4.style.display = "none";
+    info5.style.display = "none";
+    info6.style.display = "none";
+    info7.style.display = "none";
+    info8.style.display = "";
+    info9.style.display = "none";
+    info10.style.display = "none";
+    } 
+    
+/*Mitarbeiterkarte 9 Anzeigen und die anderen Schließen*/
+function button9Show(){
+    info1.style.display = "none";
+    info2.style.display = "none";
+    info3.style.display = "none";
+    info4.style.display = "none";
+    info5.style.display = "none";
+    info6.style.display = "none";
+    info7.style.display = "none";
+    info8.style.display = "none";
+    info9.style.display = "";
+    info10.style.display = "none";
+    }  
+
+/*Mitarbeiterkarte 10 Anzeigen und die anderen Schließen*/
+function button10Show(){
+    info1.style.display = "none";
+    info2.style.display = "none";
+    info3.style.display = "none";
+    info4.style.display = "none";
+    info5.style.display = "none";
+    info6.style.display = "none";
+    info7.style.display = "none";
+    info8.style.display = "none";
+    info9.style.display = "none";
+    info10.style.display = "";
+    }  
