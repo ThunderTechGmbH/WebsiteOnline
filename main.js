@@ -45,3 +45,7 @@ window.addEventListener('resize', function(e){
     //  function visitPage(){
     //    window.location='index.php';
     //  }
+
+    function shop () {
+      document.getElementById("container").scrollIntoView(true);
+    }

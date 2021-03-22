@@ -176,7 +176,6 @@
     max-width: 1280px;
     max-width: 80rem;
     right: 8%;
-    left: 8%;
     margin: 0 auto;
     padding: 10vh 0 0
 }
@@ -386,12 +385,13 @@
     will-change: background-position
 }
 */
-.dbm-printed-skins-display-blocks--dbrand-glass .dbm-displayblock-square-feature .dbm-displayblock-img {
-    box-shadow: none
-}
 .dbm-printed-skins-display-blocks--dbrand-glass .dbm-displayblock-square-feature .dbm-displayblock-img .dbv3-lazy-loader--img--target {
     background-size: cover
 }
+
+.dbm-printed-skins-display-blocks--dbrand-glass .dbm-displayblock-square-feature .dbm-displayblock-img {
+    box-shadow: none}
+
 @media (min-width:48em) {
     .dbm-printed-skins-display-blocks--dbrand-glass .dbm-displayblock-square-feature {
         margin: 0

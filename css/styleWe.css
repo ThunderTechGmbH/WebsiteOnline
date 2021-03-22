@@ -652,10 +652,10 @@ footer a {
 	height: 540px;
 	max-width: 380px;
 	padding: 80px 40px 40px;
-	background: rgba(0,0,0,0.7);
+	background: rgba(0, 0, 0, 0.75);
 	border-radius: 10px;
 	color: #fff;
-	box-shadow: 0 15px 25px rgba(0,0,0,0.5);
+	box-shadow: 0 15px 25px rgba(0, 0, 0, 0);
 }
 
 .contact-form .input-group input {
@@ -875,7 +875,9 @@ hr {
     font-weight: normal;
     color: #333;
     text-align: center;
-    font-size: 2.5em;
+    font-size: 3em;
+	margin-top: 100px;
+	margin-bottom: 50px;
 }
 
 .about-band-image {
@@ -1129,11 +1131,24 @@ hr {
 }
 
 .carousel-container {
-	width: 60%;
+	width: clamp(250px, 30vw, 500px);
 	overflow: hidden;
 }
 
 .carousel-slide {
+position:sticky;
 display: flex;
 width: 100%;
+}
+
+#text {
+	width: 650px;
+	height: 200px;
+	margin-left: 50px;
+	margin-bottom: 200px;
+	font-size: 4.5vw;
+}
+
+.fas {
+	visibility: hidden;
 }

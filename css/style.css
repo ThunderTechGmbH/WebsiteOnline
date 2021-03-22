@@ -749,7 +749,8 @@ hr {
 .downArrow {
 	position: absolute;
 	top: 95%;
-	left: 50%;
+	left: 49%;
+    margin-right: -51%;
 	filter: invert(1);
 }
 .bounce {
