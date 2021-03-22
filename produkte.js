@@ -123,7 +123,7 @@ carouselSlide.addEventListener("transitionend", () => {
 
 
 const textDisplay = document.getElementById('text')
-const phrases = ['Why are you here?' , "Oh I know why"]
+const phrases = ['Thunder Tech' , "Kodi Media Center" , "Retro Gaming Experience"]
 let i = 0
 let j = 0 
 let currentPhrase = []
