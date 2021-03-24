@@ -95,7 +95,7 @@ carouselSlide.style.transform ="translateX(" + (-size * counter) + "px)";
 
 function slide (){
     if(counter >= carouselImages.length -1) return;
-    carouselSlide.style.transition = "transform 0.6s ease-in-out";
+    carouselSlide.style.transition = "transform 0.5s ease-in-out";
     counter++;
     carouselSlide.style.transform = "translateX(" + (-size * counter) + "px)";
 };
@@ -170,3 +170,18 @@ function loop () {
 }
 
 loop ()
+
+window.addEventListener('resize', function(e){
+
+  var width = {
+    width: window.innerWidth || document.body.clientWidth,
+  }
+
+  const widthNum = (Object.values(width))
+
+  if (widthNum > 767) {
+    block.style.display = "none";
+  } else {
+    block.style.display = "block";
+  }
+})
