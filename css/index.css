@@ -1,5 +1,9 @@
+.intro {
+  z-index: -1; 
+}
+
 .first-sec {
-    height: 1080px;
+    z-index: 100;
 }
 .second-sec {
     color: black;
