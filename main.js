@@ -10,9 +10,7 @@ var block = document.getElementById("buy-block");
 
 let menuOpen = false;
 
-window.onload = function () {
-    window.scrollTo(0, 0);
-  }
+
 
 menuBtn.addEventListener('click', () => {
     menuBtn.classList.toggle('open');

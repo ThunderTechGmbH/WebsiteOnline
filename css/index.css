@@ -1,9 +1,5 @@
-.intro {
-  z-index: -1; 
-}
-
 .first-sec {
-    z-index: 100;
+    z-index: -2;
 }
 .second-sec {
     color: black;
@@ -137,4 +133,17 @@
   .wrapper .row{
     margin: 10px 0;
   }
+}
+
+.parallax-wrapper {
+  overflow-y: hidden;
+}
+
+.parallax {
+  height: 1080px;
+  display: flex;
+}
+
+#over {
+  z-index: 0;
 }
