@@ -725,15 +725,18 @@ hr {
 }
 
 .intro {
-	height: 1080px;
+	width: 100vh; 
+	min-width: 100%;
 	position: fixed;
 	z-index: -1;
 }
   
 .intro video {
-	height: 100%;
-	width: 100%;
 	object-fit: cover;
+	height: 100vh; 
+	min-height: 100%;
+	width: 100vh; 
+	min-width: 100%;
 }
   
 .intro h5 {
@@ -749,7 +752,7 @@ hr {
 
 .downArrow {
 	position: absolute;
-	top: 90%;
+	top: 95%;
 	left: 50%;
     margin-right: -50%;
 	filter: invert(1);

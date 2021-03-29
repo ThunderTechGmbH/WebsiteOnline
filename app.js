@@ -81,10 +81,13 @@ window.addEventListener('scroll', (function() {
     video.currentTime = delay;
   }, 20);
 
-  video.addEventListener("progress", function() {
-    // When buffer is 1 whole video is buffered
-    if (Math.round(video.buffered.end(0)) / Math.round(video.seekable.end(0)) === 1) {
-      // Entire video is downloaded
-      console.log("Y")
-   }
-  }, false);
+  window.onload = function(){
+    video.addEventListener("progress", function() {
+      console.log("L")
+      // When buffer is 1 whole video is buffered
+      if (Math.round(video.buffered.end(0)) / Math.round(video.seekable.end(0)) === 1) {
+        // Entire video is downloaded
+        console.log("Y")
+     }
+    }, false);
+  };

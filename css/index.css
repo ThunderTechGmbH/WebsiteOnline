@@ -141,7 +141,8 @@
 
 .parallax {
   height: 1080px;
-  display: flex;
+  position:relative;
+  z-index: -10;
 }
 
 #over {

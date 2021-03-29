@@ -726,17 +726,13 @@ hr {
 }
 
 .intro {
-	position:fixed;
-        top:0;
-        left:0;
-        z-index: -99;
-
+    z-index: -99;
 }
   
 .intro video {
 	height: 100%;
 	width: 100%;
-	object-fit: cover;
+	object-fit: fill;
 }
   
 .intro h1 {
