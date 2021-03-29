@@ -152,3 +152,16 @@
 #start {
   height: 3000px;
 }
+
+.story {
+  background-color: #eee;
+  height: 1080px;
+  color: #000;
+  align-items: center;
+}
+
+#story-text {
+  margin-top: 100px;
+	min-height: 100%;
+  text-align: center;
+}

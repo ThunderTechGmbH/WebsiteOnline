@@ -123,7 +123,7 @@ carouselSlide.addEventListener("transitionend", () => {
 
 
 const textDisplay = document.getElementById('text')
-const phrases = ['Thunder Tech' , "Kodi Media Center" , "Retro Gaming Experience"]
+const phrases = ['Thunder Tech' , "Kodi Media" , "Retro Gaming"]
 let i = 0
 let j = 0 
 let currentPhrase = []
@@ -161,7 +161,7 @@ function loop () {
       if (i === phrases.length) {
         i = 0
         console.log(window.pageYOffset)
-        if (window.pageYOffset < 400) {
+        if (window.pageYOffset < 100) {
           document.getElementById("here").scrollIntoView();
         }
       }

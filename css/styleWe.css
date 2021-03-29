@@ -1131,8 +1131,9 @@ hr {
 }
 
 .carousel-container {
-	width: clamp(250px, 30vw, 500px);
+	width: clamp(250px, 33vw, 500px);
 	overflow: hidden;
+	position: relative;
 }
 
 .carousel-slide {
@@ -1145,7 +1146,7 @@ width: 100%;
 	width: 650px;
 	height: 200px;
 	margin-left: 50px;
-	margin-bottom: 200px;
+	margin-bottom: 100px;
 	font-size: 4.5vw;
 }
 
