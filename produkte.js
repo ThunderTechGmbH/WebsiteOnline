@@ -160,6 +160,10 @@ function loop () {
       slide()
       if (i === phrases.length) {
         i = 0
+        console.log(window.pageYOffset)
+        if (window.pageYOffset < 400) {
+          document.getElementById("here").scrollIntoView();
+        }
       }
     }
   }
@@ -169,7 +173,7 @@ function loop () {
   setTimeout(loop, time)
 }
 
-loop ()
+loop () // Call the Function
 
 window.addEventListener('resize', function(e){
 

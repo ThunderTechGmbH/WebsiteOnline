@@ -153,7 +153,6 @@ body.noScroll {
 
 .first-sec {
 	width: 100%;
-	height: 3000px;
 	background-color: #eeeeee;
 }
 
@@ -726,15 +725,18 @@ hr {
 }
 
 .intro {
-	height: 1080px;
+	width: 100vh; 
+	min-width: 100%;
 	position: fixed;
 	z-index: -1;
 }
   
 .intro video {
-	height: 100%;
-	width: 100%;
 	object-fit: cover;
+	height: 100vh; 
+	min-height: 100%;
+	width: 100vh; 
+	min-width: 100%;
 }
   
 .intro h5 {
@@ -751,9 +753,10 @@ hr {
 .downArrow {
 	position: absolute;
 	top: 95%;
-	left: 49%;
-    margin-right: -51%;
+	left: 50%;
+    margin-right: -50%;
 	filter: invert(1);
+	z-index: 2;
 }
 .bounce {
 	-moz-animation: bounce 4s infinite;

@@ -11,7 +11,6 @@ var block = document.getElementById("buy-block");
 let menuOpen = false;
 
 
-
 menuBtn.addEventListener('click', () => {
     menuBtn.classList.toggle('open');
     menuItems.classList.toggle('open');
