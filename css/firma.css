@@ -58,13 +58,64 @@ body {
     }
 
 /*CSS für die Darstellung des Standorts der Firma*/
+/*CSS für nicht Mobile Geräte*/
 .darstellung_unser_standort{
     display: grid;
     grid-template-rows: 40px 480px;
-    grid-template-columns: auto 640px auto;
+    grid-template-columns: auto 300px 640px auto;
     grid-row: 2 / 2;
     background-color: var(--light);
     height: 570px;
+    }
+
+/*CSS für Mobile Geräte*/
+@media (min-width: 280px){
+    .darstellung_unser_standort{
+        grid-template-rows: 20px 120px;
+        grid-template-columns: auto 75px 160px auto;
+        height: 142.5px;
+        }
+    }
+
+/*CSS für Zwischen Schritte zum Full Bildschirm*/     
+@media (min-width: 440px){
+    .darstellung_unser_standort{
+        grid-template-rows: 24px 192px;
+        grid-template-columns: auto 120px 256px auto;
+        height: 228px;
+        }
+    }
+   
+@media (min-width: 600px){
+    .darstellung_unser_standort{
+        grid-template-rows: 28px 264px;
+        grid-template-columns: auto 165px 352px auto;
+        height: 313.5px;
+        }
+    }
+
+@media  (min-width: 760px){
+    .darstellung_unser_standort{
+        grid-template-rows: 32px 336px;
+        grid-template-columns: auto 210px 448px auto;
+        height: 399px;
+        }
+    }
+    
+@media (min-width: 920px){
+    .darstellung_unser_standort{
+        grid-template-rows: 36px 408px;
+        grid-template-columns: auto 255px 544px auto;
+        height: 484.5px;
+        }
+    }
+
+@media (min-width: 1080px){
+    .darstellung_unser_standort{
+        grid-template-rows: 40px 480px;
+        grid-template-columns: auto 300px 640px auto;
+        height: 570px;
+        }
     }
 
 .darstellung_unser_standort h3{
@@ -74,19 +125,162 @@ body {
 	margin-bottom: 5px;
     }
 
+.darstellung_unser_standort p{
+    margin-top: 15px;
+    margin-left: 15px;
+    }
+
+/*CSS für nicht Mobile Geräte*/      
 .unser_standort_ueberschrift{
     grid-row: 1 / 1;
     grid-column: 1 / 4;
     height: 40px;
     }
 
-.unser_standort{
-    grid-row: 2 / 3;
+/*CSS für Mobile Geräte*/    
+@media (min-width: 280px){
+    .unser_standort_ueberschrift{
+        height: 20px;
+        }
+    }
+
+/*CSS für Zwischen Schritte zum Full Bildschirm*/    
+@media (min-width: 440px){
+    .unser_standort_ueberschrift{
+        height: 24px;
+        }
+    }
+    
+@media (min-width: 600px){
+    .unser_standort_ueberschrift{
+        height: 28px;
+        }
+    }
+
+@media (min-width: 760px){
+    .unser_standort_ueberschrift{
+        height: 32px;
+        }
+    }
+
+@media (min-width: 920px){
+    .unser_standort_ueberschrift{
+        height: 36px;
+        }
+    }
+
+@media (min-width: 1080px){
+    .unser_standort_ueberschrift{
+        height: 40px;
+        }
+    }    
+
+/*CSS für nicht Mobile Geräte*/    
+.unser_standort_inhalt{
+    grid-row: 2 / 2;
     grid-column: 2 / 2;
+    background-color: white;
+    border: 1px solid black;
+    width: 300px;
+    height: 480px;
+    }
+
+/*CSS für Mobile Geräte*/    
+@media (min-width: 280px){
+    .unser_standort_inhalt{
+        width: 75px;
+        height: 120px;
+        }
+    }
+
+/*CSS für Zwischen Schritte zum Full Bildschirm*/      
+@media (min-width: 440px){
+    .unser_standort_inhalt{
+        width: 120px;
+        height: 192px;
+        }
+    }
+  
+@media (min-width: 600px){
+    .unser_standort_inhalt{
+        width: 165px;
+        height: 264px;
+        }
+    }
+
+@media (min-width: 760px){
+    .unser_standort_inhalt{
+        width: 210px;
+        height: 336px;
+        }
+    }
+
+@media (min-width: 920px){
+    .unser_standort_inhalt{
+        width: 255px;
+        height: 408px;
+        }
+    }
+
+@media (min-width: 1080px){
+    .unser_standort_inhalt{
+        width: 300px;
+        height: 480px;
+        }
+    }
+
+/*CSS für nicht Mobile Geräte*/  
+.unser_standort{
+    grid-row: 2 / 2;
+    grid-column: 3 / 3;
     background-color: white;
     border: 1px solid black;
     width: 640px;
     height: 480px;
+    }
+
+/*CSS für Mobile Geräte*/    
+@media (min-width: 280px){
+    .unser_standort{
+        width: 160px;
+        height: 120px;
+        }
+    }
+
+/*CSS für Zwischen Schritte zum Full Bildschirm*/        
+@media (min-width: 440px){
+    .unser_standort{
+        width: 252px;
+        height: 192px;
+        }
+    }
+
+@media (min-width: 600px){
+    .unser_standort{
+        width: 344px;
+        height: 264px;
+        }
+    }
+
+@media (min-width: 760px){
+    .unser_standort{
+        width: 436px;
+        height: 336px;
+        }
+    }
+
+@media (min-width: 920px){
+    .unser_standort{
+        width: 528px;
+        height: 408px;
+        }
+    }
+
+@media (min-width: 1080px){
+    .unser_standort{
+        width: 640px;
+        height: 480px;
+        }
     }
 
 /*CSS für die Darstellung der Mitarbeiter*/
