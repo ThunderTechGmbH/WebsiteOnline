@@ -27,7 +27,7 @@ body {
     }
 
 .first-sec p {
-    text-align: left;
+    text-align: justify;
     margin-top: 10px;
     }
 
@@ -125,9 +125,59 @@ body {
 	margin-bottom: 5px;
     }
 
+/*CSS für nicht Mobile Geräte*/ 
 .darstellung_unser_standort p{
     margin-top: 15px;
     margin-left: 15px;
+    }
+
+/*CSS für Mobile Geräte*/
+@media (min-width: 280px) {
+    .darstellung_unser_standort p{
+        font-size: 75%;
+        margin-top: 3.75px;
+        margin-left: 3.75px;
+        }
+    }
+
+@media (min-width: 440px) {
+    .darstellung_unser_standort p{
+        font-size: 80%;
+        margin-top: 6px;
+        margin-left: 6px;
+        }
+    }
+
+@media (min-width: 600px){
+    .darstellung_unser_standort p{
+        font-size: 85%;
+        margin-top: 8.25px;
+        margin-left: 8.25px;
+        }
+    }
+
+@media (min-width: 760px){
+    .darstellung_unser_standort p{
+        font-size: 90%;
+        margin-top: 10.5px;
+        margin-left: 10.5px;
+        }
+    }
+
+@media (min-width: 920px){
+    .darstellung_unser_standort p{
+        font-size: 95%;
+        margin-top: 12.75px;
+        margin-left: 12.75px;
+        }
+    }
+
+@media (min-width: 1080px){
+    .darstellung_unser_standort p{
+        font-size: 100%;
+        margin-top: 15px;
+        margin-left: 15px;
+        }
     }
 
 /*CSS für nicht Mobile Geräte*/      
@@ -818,6 +868,26 @@ body {
     }
 
 /*CSS für Mobile Geräte*/
+@media (min-width: 280px){
+    .darstellung_leistungskarten {
+        grid-template-rows: 140px auto;
+        grid-template-columns: auto 280px auto;
+        }
+    }
+
+@media (min-width: 440px){
+    .darstellung_leistungskarten {
+        grid-template-rows: 140px auto;
+        grid-template-columns: auto 440px auto;
+        }
+    }
+
+@media (min-width: 600px){
+    .darstellung_leistungskarten {
+        grid-template-rows: 140px auto;
+        grid-template-columns: auto 600px auto;
+        }
+    }
 
 /*CSS für Bildschirme die eine breite von min 888px haben*/
 @media (min-width: 888px){
@@ -894,6 +964,26 @@ body {
     }    
 
 /*CSS für Mobile Geräte*/
+@media (min-width: 280px) {
+    .leistungskartengruppe {
+        grid-template-columns: repeat(1, 50px 172px 50px);
+        grid-template-rows: repeat(8, 50px 363px 50px);
+        }
+    }
+
+@media (min-width: 440px) {
+    .leistungskartengruppe {
+        grid-template-columns: repeat(1, 50px 258px 50px);
+        grid-template-rows: repeat(8, 50px 302.5px 50px);
+        }
+    }
+
+@media (min-width: 600px) {
+    .leistungskartengruppe {
+        grid-template-columns: repeat(1, 50px 344px 50px);
+        grid-template-rows: repeat(8, 50px 242px 50px);
+        }
+    }
 
 /*CSS für Bildschirme die eine breite von min 888px haben*/
 @media (min-width: 888px){
@@ -934,12 +1024,32 @@ body {
     }
 
 /*CSS für Mobile Geräte*/
+@media (min-width: 280px){
+    .leistungskarte1, .leistungskarte2, .leistungskarte3, .leistungskarte4,
+    .leistungskarte5, .leistungskarte6, .leistungskarte7, .leistungskarte8 {
+        height: 363px;
+        }
+    }
+
+@media (min-width: 440px) {
+    .leistungskarte1, .leistungskarte2, .leistungskarte3, .leistungskarte4,
+    .leistungskarte5, .leistungskarte6, .leistungskarte7, .leistungskarte8 {
+        height: 302.5px;
+        }
+    }
+
+@media (min-width: 600px) {
+    .leistungskarte1, .leistungskarte2, .leistungskarte3, .leistungskarte4,
+    .leistungskarte5, .leistungskarte6, .leistungskarte7, .leistungskarte8 {
+        height: 242px;
+        }
+    }
 
 /*CSS für nicht Mobile Geräte*/
 /*Reihe 1: Nummer 1*/
 .leistungskarte1{
     grid-column:  2 / 2;
-    grid-row: 2 /2;
+    grid-row: 2 / 2;
     }
 
 /*CSS für nicht Mobile Geräte*/
@@ -950,6 +1060,20 @@ body {
     }
 
 /*CSS für Mobile Geräte*/
+/*Reihe 2: Nummer 1*/
+@media (min-width: 280px) {
+    .leistungskarte2 {
+        grid-column: 2 / 2;
+        grid-column: 5 / 5;
+        }
+    }
+
+@media (min-width: 888px) {
+    .leistungskarte2{
+        grid-column: 5 / 5;
+        grid-row: 2 / 2;
+        }
+    }
 
 /*CSS für nicht Mobile Geräte*/    
 /*Reihe 1: Nummer 3*/
@@ -959,6 +1083,13 @@ body {
     }
 
 /*CSS für Mobile Geräte*/
+/*Reihe 3: Nummer 1*/
+@media (min-width: 280px) {
+    .leistungskarte3 {
+        grid-column: 2 / 2;
+        grid-column: 8 / 8;
+        }
+    }
 
 /*CSS für Bildschirme die eine breite von min 888px haben*/
 /*Reihe 2: Nummer 1*/
@@ -995,6 +1126,13 @@ body {
     }
 
 /*CSS für Mobile Geräte*/
+/*Reihe 4: Nummer 1*/
+@media (min-width: 280px) {
+    .leistungskarte4{
+        grid-column: 2 / 2;
+        grid-row: 11 / 11;
+        }
+    }
 
 /*CSS für Bildschirme die eine breite von min 888px haben*/
 /*Reihe 2: Nummer 2*/
@@ -1031,6 +1169,13 @@ body {
     }
 
 /*CSS für Mobile Geräte*/
+/*Reihe 5: Nummer 1*/
+@media (min-width: 280px) {
+    .leistungskarte5{
+        grid-column: 14 / 14;
+        grid-row: 2 / 2;
+        }
+    }
 
 /*CSS für Bildschirme die eine breite von min 888px haben*/
 /*Reihe 3: Nummer 1*/
@@ -1067,6 +1212,13 @@ body {
     }
 
 /*CSS für Mobile Geräte*/
+/*Reihe 6: Nummer 1*/
+@media (min-width: 280px) {
+    .leistungskarte6{
+        grid-column: 2 / 2;
+        grid-row: 17 / 17;
+        }
+    }
 
 /*CSS für Bildschirme die eine breite von min 888px haben*/
 /*Reihe 3: Nummer 2*/
@@ -1103,6 +1255,12 @@ body {
     }
 
 /*CSS für Mobile Geräte*/
+@media (min-width: 280px){
+    .leistungskarte7{
+        grid-column: 2 / 2;
+        grid-row: 20 / 20;
+        }
+    }
 
 /*CSS für Bildschirme die eine breite von min 888px haben*/
 /*Reihe 4: Nummer 1*/
@@ -1139,6 +1297,13 @@ body {
     }
 
 /*CSS für Mobile Geräte*/
+/*Reihe 8: Nummer 1*/
+@media (min-width: 280px) {
+    .leistungskarte8{
+        grid-column: 23 / 23;
+        grid-row: 2 / 2;
+        }
+    }
 
 /*CSS für Bildschirme die eine breite von min 888px haben*/
 /*Reihe 4: Nummer 2*/
@@ -1166,8 +1331,6 @@ body {
         grid-row: 5 / 5;
         }
     }
-
-/*CSS für Mobile Geräte*/
 
 /*CSS für nicht Mobile Geräte*/    
 .karte_bild {
