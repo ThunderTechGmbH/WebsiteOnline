@@ -22,6 +22,7 @@
   }
 }
 
+/*CSS für nicht Mobile Geräte*/
 [class^="flaticon-"]:before, [class*=" flaticon-"]:before,
 [class^="flaticon-"]:after, [class*=" flaticon-"]:after {   
   font-family: Flaticon;
@@ -29,6 +30,31 @@
 font-style: normal;
 margin-left: 20px;
 }
+
+/*CSS für Mobile Geräte*/
+/*@media (min-width: 280px){
+  [class^="flaticon-"]:before, [class*=" flaticon-"]:before,
+  [class^="flaticon-"]:after, [class*=" flaticon-"]:after { 
+      font-size: 20px;
+      margin-left: 10px;
+      }
+  }
+
+@media (min-width: 440px) {
+  [class^="flaticon-"]:before, [class*=" flaticon-"]:before,
+  [class^="flaticon-"]:after, [class*=" flaticon-"]:after { 
+      font-size: 30px;
+      margin-left: 15px;
+      }
+  }
+
+@media (min-width: 600px) {
+  [class^="flaticon-"]:before, [class*=" flaticon-"]:before,
+  [class^="flaticon-"]:after, [class*=" flaticon-"]:after { 
+      font-size: 40px;
+      margin-left: 20px;
+      }
+  }*/
 
 .flaticon-phone-calling:before { content: "\f100"; }
 .flaticon-customer-support:before { content: "\f101"; }
