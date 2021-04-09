@@ -6,17 +6,60 @@ body {
 .first-section{
     display: grid;
     grid-template-rows: auto auto auto auto 50px;
-    font-family: dbf-base;
-    font-style: normal;
-    font-weight: 100;
-    font-display: fallback;
     height: auto !important;
+    }
+
+.first-section h1{
+    font-family: DbrandGlassTitle;
+    font-style: normal;
+    font-weight: 200;
+    font-display: fallback;
+    src: url(Fonts/200T.woff2) format("woff2"), url(Fonts/200T.woff) format("woff")
+    }
+
+.first-section h2{
+    font-family: DbrandGlassTitle;
+    font-style: normal;
+    font-weight: 200;
+    font-display: fallback;
+    src: url(Fonts/200T.woff2) format("woff2"), url(Fonts/200T.woff) format("woff")
+    }
+
+.first-section h3{
+    font-family: DbrandGlassTitle;
+    font-style: normal;
+    font-weight: 200;
+    font-display: fallback;
+    src: url(Fonts/200T.woff2) format("woff2"), url(Fonts/200T.woff) format("woff")
+    }
+
+.first-section h4{
+    font-family: DbrandGlassTitle;
+    font-style: normal;
+    font-weight: 200;
+    font-display: fallback;
+    src: url(Fonts/200T.woff2) format("woff2"), url(Fonts/200T.woff) format("woff")
+    }
+
+.first-section p{
+    font-family: DbrandGlassText;
+    font-style: normal;
+    font-weight: 400;
+    font-display: fallback;
+    src: url(Fonts/400TX.woff2) format("woff2"), url(Fonts/400TX.woff) format("woff")
+    }
+
+.first-section ol{
+    font-family: DbrandGlassText;
+    font-style: normal;
+    font-weight: 400;
+    font-display: fallback;
+    src: url(Fonts/400TX.woff2) format("woff2"), url(Fonts/400TX.woff) format("woff")
     }
 
 /*CSS für die Seite Allgemein*/    
 .first-sec{
     grid-row: 1 / 1;
-    
     height: auto;
     }
 
@@ -40,6 +83,7 @@ body {
 /*CSS für den Inhalt der Seite*/    
 .inhalt{
     display: grid;
+    grid-template-columns: auto 400px auto;
     grid-template-rows: auto 10px auto;
     }
 
@@ -55,11 +99,25 @@ body {
 
 .einleitung{
     grid-row: 1 / 1;
+    grid-column: 1 / 3;
     height: auto;
+    }
+
+.filler_left{
+    grid-row: 3 / 3;
+    grid-column: 1 / 2;
+    background-color: #3aafa9;
     }
     
 .firmengeschichte{
     grid-row: 3 / 3;
+    grid-column: 2 / 2;
+    background-color: #3aafa9;
+    }
+
+.filler_right{
+    grid-row: 3 / 3;
+    grid-column: 3 / 3;
     background-color: #3aafa9;
     }
 
@@ -993,7 +1051,7 @@ body {
     justify-content: center;
     text-align: center;
     font-size: 50px;
-    margin-top: 15;
+    margin-top: 15px;
     margin-left: -15px;
     }
 

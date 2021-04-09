@@ -283,7 +283,7 @@
     margin: 0 .1em
 }
 .web-footer-child-items--social>.child-item .item-link {
-    font-family: dbicons, dbf-base, Arial, Verdana, sans-serif;
+    font-family: dbicons, base, Arial, Verdana, sans-serif;
     font-style: normal;
     font-weight: 400;
     font-variant: normal;
@@ -797,7 +797,7 @@
     color: #3aafa9    
 }
 .nav-header .link--header-toggler .link-label, .nav-header .link--home-link .link-label {
-    font-family: dbicons, dbf-base, Arial, Verdana, sans-serif;
+    font-family: dbicons, base, Arial, Verdana, sans-serif;
     font-style: normal;
     font-weight: 400;
     font-variant: normal;
@@ -929,7 +929,7 @@
         content: "👤"
     }
     .nav-header .link--cart:before, .nav-header .link-item--account>.link:before {
-        font-family: dbicons, dbf-base, Arial, Verdana, sans-serif;
+        font-family: dbicons, base, Arial, Verdana, sans-serif;
         font-style: normal;
         font-weight: 400;
         font-variant: normal;
@@ -1139,7 +1139,7 @@
         left: 0 !important
     }
     .nav-header .link--home-link:before {
-        font-family: dbicons, dbf-base, Arial, Verdana, sans-serif;
+        font-family: dbicons, base, Arial, Verdana, sans-serif;
         font-style: normal;
         font-weight: 400;
         font-variant: normal;
@@ -1171,7 +1171,7 @@
     overflow: visible
 }
 .nav-header.nav-header--minimal .link--home-link .link-label, .nav-header.nav-header--minimal .link--home-link:before {
-    font-family: dbicons, dbf-base, Arial, Verdana, sans-serif;
+    font-family: dbicons, base, Arial, Verdana, sans-serif;
     font-style: normal;
     font-weight: 400;
     font-variant: normal;
@@ -1215,7 +1215,7 @@
         display: none
     }
     .nav-header .link--cart .link-label {
-        font-family: dbicons, dbf-base, Arial, Verdana, sans-serif;
+        font-family: dbicons, base, Arial, Verdana, sans-serif;
         font-style: normal;
         font-weight: 400;
         font-variant: normal;
@@ -1303,7 +1303,7 @@
         padding-right: 1.5em
     }
     .nav-header .links-panel .link.has-sublinks .link-label:before {
-        font-family: dbicons, dbf-base, Arial, Verdana, sans-serif;
+        font-family: dbicons, base, Arial, Verdana, sans-serif;
         font-style: normal;
         font-weight: 400;
         font-variant: normal;
@@ -1329,7 +1329,7 @@
         padding-left: 1.5em
     }
     .nav-header .links-panel .link.link--close-panel .link-label:before {
-        font-family: dbicons, dbf-base, Arial, Verdana, sans-serif;
+        font-family: dbicons, base, Arial, Verdana, sans-serif;
         font-style: normal;
         font-weight: 400;
         font-variant: normal;
@@ -1365,7 +1365,7 @@
         left: 0 !important
     }
     .nav-header .link--home-link:before {
-        font-family: dbicons, dbf-base, Arial, Verdana, sans-serif;
+        font-family: dbicons, base, Arial, Verdana, sans-serif;
         font-style: normal;
         font-weight: 400;
         font-variant: normal;

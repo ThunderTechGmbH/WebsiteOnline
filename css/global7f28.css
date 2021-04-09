@@ -285,112 +285,112 @@ table {
     border-spacing: 0
 }
 @font-face {
-    font-family: dbf-base;
+    font-family: base;
     font-style: normal;
     font-weight: 100;
     font-display: fallback;
     src: url(Fonts/100.woff2) format("woff2"), url(Fonts/100.woff) format("woff")
 }
 @font-face {
-    font-family: dbf-base;
+    font-family: base;
     font-style: normal;
     font-weight: 400;
     font-display: fallback;
     src: url(Fonts/400.woff2) format("woff2"), url(Fonts/400.woff) format("woff")
 }
 @font-face {
-    font-family: dbf-base;
+    font-family: base;
     font-style: italic;
     font-weight: 100;
     font-display: fallback;
     src: url(Fonts/100s.woff2) format("woff2"), url(Fonts/100s.woff) format("woff")
 }
 @font-face {
-    font-family: dbf-base;
+    font-family: base;
     font-style: normal;
     font-weight: 300;
     font-display: fallback;
     src: url(Fonts/300.woff2) format("woff2"), url(Fonts/300.woff) format("woff")
 }
 @font-face {
-    font-family: dbf-base;
+    font-family: base;
     font-style: italic;
     font-weight: 300;
     font-display: fallback;
     src: url(Fonts/300s.woff2) format("woff2"), url(Fonts/300s.woff) format("woff")
 }
 @font-face {
-    font-family: dbf-base;
+    font-family: base;
     font-style: italic;
     font-weight: 400;
     font-display: fallback;
     src: url(Fonts/400s.woff2) format("woff2"), url(Fonts/400s.woff) format("woff")
 }
 @font-face {
-    font-family: dbf-base;
+    font-family: base;
     font-style: normal;
     font-weight: 500;
     font-display: fallback;
     src: url(Fonts/500.woff2) format("woff2"), url(Fonts/500.woff) format("woff")
 }
 @font-face {
-    font-family: dbf-base;
+    font-family: base;
     font-style: italic;
     font-weight: 500;
     font-display: fallback;
     src: url(Fonts/500s.woff2) format("woff2"), url(Fonts/500s.woff) format("woff")
 }
 @font-face {
-    font-family: dbf-base;
+    font-family: base;
     font-style: normal;
     font-weight: 600;
     font-display: fallback;
     src: url(Fonts/600.woff2) format("woff2"), url(Fonts/600.woff) format("woff")
 }
 @font-face {
-    font-family: dbf-base;
+    font-family: base;
     font-style: italic;
     font-weight: 600;
     font-display: fallback;
     src: url(Fonts/600s.woff2) format("woff2"), url(Fonts/600s.woff) format("woff")
 }
 @font-face {
-    font-family: dbf-base;
+    font-family: base;
     font-style: normal;
     font-weight: 700;
     font-display: fallback;
     src: url(Fonts/700.woff2) format("woff2"), url(Fonts/700.woff) format("woff")
 }
 @font-face {
-    font-family: dbf-base;
+    font-family: base;
     font-style: italic;
     font-weight: 700;
     font-display: fallback;
     src: url(Fonts/700s.woff2) format("woff2"), url(Fonts/700s.woff) format("woff")
 }
 @font-face {
-    font-family: dbf-base;
+    font-family: base;
     font-style: normal;
     font-weight: 800;
     font-display: fallback;
     src: url(Fonts/800.woff2) format("woff2"), url(Fonts/800.woff) format("woff")
 }
 @font-face {
-    font-family: dbf-base;
+    font-family: base;
     font-style: italic;
     font-weight: 800;
     font-display: fallback;
     src: url(Fonts/800s.woff2) format("woff2"), url(Fonts/800s.woff) format("woff")
 }
 @font-face {
-    font-family: dbf-base;
+    font-family: base;
     font-style: normal;
     font-weight: 900;
     font-display: fallback;
     src: url(Fonts/900.woff2) format("woff2"), url(Fonts/900.woff) format("woff")
 }
 @font-face {
-    font-family: dbf-base;
+    font-family: base;
     font-style: italic;
     font-weight: 900;
     font-display: fallback;
@@ -398,7 +398,7 @@ table {
 }
 
 .icn {
-    font-family: dbicons, dbf-base, Arial, Verdana, sans-serif;
+    font-family: dbicons, base, Arial, Verdana, sans-serif;
     font-style: normal;
     font-weight: 400;
     font-variant: normal;
