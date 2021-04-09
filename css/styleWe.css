@@ -422,7 +422,7 @@ footer a {
 	border-radius: 50%;
 	background-color: #FFF;
 	border: 5px solid #FFF;
-	object-fit: cover;
+	object-fit: scale-down;
 }
 	  
 .card__header h2 {
@@ -869,11 +869,11 @@ hr {
     padding: 0 1.5em;
 }
 .section-header {
-    font-family: "Metal Mania";
+    font-family: ThunderTitle;
     font-weight: normal;
     color: #333;
     text-align: center;
-    font-size: 3em;
+    font-size: 3.7em;
 	margin-top: 4vh;
 	margin-bottom: 5vh;
 }
@@ -996,11 +996,11 @@ hr {
 }
 
 .shop-item-title {
+	font-family: ThunderText;
     display: block;
     width: 100%;
     text-align: center;
-    font-weight: bold;
-    font-size: 1.5em;
+    font-size: 1.7em;
     color: #333;
     margin-bottom: 15px;
 }
@@ -1150,4 +1150,9 @@ width: 100%;
 
 .fas {
 	visibility: hidden;
+}
+
+.label-txt {
+	letter-spacing: 0.05em;
+	font-family: ThunderTitle;
 }

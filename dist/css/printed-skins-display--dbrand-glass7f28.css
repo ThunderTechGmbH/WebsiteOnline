@@ -1,13 +1,13 @@
 
 @font-face {
-    font-family: DbrandGlassTitle;
+    font-family: ThunderTitle;
     font-style: normal;
     font-weight: 200;
     font-display: fallback;
     src: url(Fonts/200T.woff2) format("woff2"), url(Fonts/200T.woff) format("woff")
 }
 @font-face {
-    font-family: DbrandGlassText;
+    font-family: ThunderText;
     font-style: normal;
     font-weight: 400;
     font-display: fallback;
@@ -20,20 +20,20 @@
     line-height: 1.25
 }
 .web-printed-skins-display-blocks--dbrand-glass .web-displayblock .title {
-    font-family: DbrandGlassTitle, Helvetica, Arial, sans-serif;
+    font-family: ThunderTitle, Helvetica, Arial, sans-serif;
     font-weight: 200;
     letter-spacing: 0;
     line-height: .9;
     text-transform: none
 }
 .web-printed-skins-display-blocks--dbrand-glass .web-displayblock .lines, .web-printed-skins-display-blocks--dbrand-glass .dbt-countdown {
-    font-family: DbrandGlassText, Helvetica, Arial, sans-serif;
+    font-family: ThunderText, Helvetica, Arial, sans-serif;
     font-style: normal;
     font-weight: 400;
     line-height: 1.25
 }
 .web-printed-skins-display-blocks--dbrand-glass .dbt-countdown {
-    font-family: DbrandGlassTitle, Helvetica, Arial, sans-serif;
+    font-family: ThunderTitle, Helvetica, Arial, sans-serif;
     font-weight: 200;
     letter-spacing: 0;
     line-height: .9;
@@ -65,7 +65,7 @@
     color: #323232
 }
 .web-printed-skins-display-blocks--dbrand-glass .mat-btn.highlight .label {
-    font-family: DbrandGlassText, Helvetica, Arial, sans-serif;
+    font-family: ThunderText, Helvetica, Arial, sans-serif;
     font-style: normal;
     font-weight: 400;
     line-height: 1.25
@@ -86,10 +86,10 @@
     color: #323232
 }
 .web-printed-skins-display-blocks--dbrand-glass .web-printed-skins-display-buy-bar {
-    font-family: DbrandGlassText, Helvetica, Arial, sans-serif;
+    font-family: ThunderText, Helvetica, Arial, sans-serif;
     font-style: normal;
     font-weight: 400;
-    font-family: DbrandGlassTitle, Helvetica, Arial, sans-serif;
+    font-family: ThunderTitle, Helvetica, Arial, sans-serif;
     font-weight: 200;
     letter-spacing: 0;
     line-height: .9;
@@ -115,10 +115,10 @@
     font-size: 1.25em
 }
 .web-printed-skins-display-blocks--dbrand-glass .web-printed-skins-display-customizer, .web-printed-skins-display-blocks--dbrand-glass .web-printed-skins-display-customizer .form-header .pui-title-h1 {
-    font-family: DbrandGlassText, Helvetica, Arial, sans-serif;
+    font-family: ThunderText, Helvetica, Arial, sans-serif;
     font-style: normal;
     font-weight: 400;
-    font-family: DbrandGlassTitle, Helvetica, Arial, sans-serif;
+    font-family: ThunderTitle, Helvetica, Arial, sans-serif;
     font-weight: 200;
     letter-spacing: 0;
     line-height: .9;
@@ -159,7 +159,7 @@
     color: #323232
 }
 .web-printed-skins-display-blocks--dbrand-glass .web-printed-skins-display-customizer .customizer-form .pui-submit-btn .label {
-    font-family: DbrandGlassText, Helvetica, Arial, sans-serif;
+    font-family: ThunderText, Helvetica, Arial, sans-serif;
     font-style: normal;
     font-weight: 400;
     line-height: 1.25
@@ -239,11 +239,11 @@
     left: 0 !important
 }
 .web-printed-skins-display-blocks--dbrand-glass .web-displayblock-hero .lines {
-    font-family: DbrandGlassText, Helvetica, Arial, sans-serif;
+    font-family: ThunderText, Helvetica, Arial, sans-serif;
     font-style: normal;
     font-weight: 400;
     line-height: 1.25;
-    font-family: DbrandGlassTitle, Helvetica, Arial, sans-serif;
+    font-family: ThunderTitle, Helvetica, Arial, sans-serif;
     font-weight: 200;
     letter-spacing: 0;
     line-height: .9;
@@ -290,10 +290,10 @@
     }
 }
 .web-printed-skins-display-blocks--dbrand-glass .web-printed-skins-display-product-request, .web-printed-skins-display-blocks--dbrand-glass .web-printed-skins-display-product-request .title {
-    font-family: DbrandGlassText, Helvetica, Arial, sans-serif;
+    font-family: ThunderText, Helvetica, Arial, sans-serif;
     font-style: normal;
     font-weight: 400;
-    font-family: DbrandGlassTitle, Helvetica, Arial, sans-serif;
+    font-family: ThunderTitle, Helvetica, Arial, sans-serif;
     font-weight: 200;
     letter-spacing: 0;
     line-height: .9;
