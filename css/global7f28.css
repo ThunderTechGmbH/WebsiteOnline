@@ -289,120 +289,114 @@ table {
     font-style: normal;
     font-weight: 100;
     font-display: fallback;
-    src: url(https://dbrand.com/sites/all/themes/dbrand_v3/fonts/base/33140050af3493f26bffdea29c10ae26.woff2?q4myo0) format("woff2"), url(https://dbrand.com/sites/all/themes/dbrand_v3/fonts/base/c0153ade0d465590e1abf1d3d7f5eb13.woff?q4myo0) format("woff")
+    src: url(Fonts/100.woff2) format("woff2"), url(Fonts/100.woff) format("woff")
 }
 @font-face {
     font-family: dbf-base;
     font-style: normal;
     font-weight: 400;
     font-display: fallback;
-    src: url(https://dbrand.com/sites/all/themes/dbrand_v3/fonts/base/a0b117ce4a3a96844337be218c1ef18b.woff2?q4myo0) format("woff2"), url(https://dbrand.com/sites/all/themes/dbrand_v3/fonts/base/f26ecbe42361c4851eb895d6783d7f40.woff?q4myo0) format("woff")
+    src: url(Fonts/400.woff2) format("woff2"), url(Fonts/400.woff) format("woff")
 }
 @font-face {
     font-family: dbf-base;
     font-style: italic;
     font-weight: 100;
     font-display: fallback;
-    src: url(https://dbrand.com/sites/all/themes/dbrand_v3/fonts/base/6852d58c2f9d6da333c6b43f04cd35e9.woff2?q4myo0) format("woff2"), url(https://dbrand.com/sites/all/themes/dbrand_v3/fonts/base/155427cfb81aaaf7cb6d3699513f4e46.woff?q4myo0) format("woff")
+    src: url(Fonts/100s.woff2) format("woff2"), url(Fonts/100s.woff) format("woff")
 }
 @font-face {
     font-family: dbf-base;
     font-style: normal;
     font-weight: 300;
     font-display: fallback;
-    src: url(https://dbrand.com/sites/all/themes/dbrand_v3/fonts/base/259af3a39a966d9f2e3ab81f88fa5064.woff2?q4myo0) format("woff2"), url(https://dbrand.com/sites/all/themes/dbrand_v3/fonts/base/f9ac617cb31b6078df1404ef21cb691a.woff?q4myo0) format("woff")
+    src: url(Fonts/300.woff2) format("woff2"), url(Fonts/300.woff) format("woff")
 }
 @font-face {
     font-family: dbf-base;
     font-style: italic;
     font-weight: 300;
     font-display: fallback;
-    src: url(https://dbrand.com/sites/all/themes/dbrand_v3/fonts/base/5aef134af958589638c2f0f7671269e6.woff2?q4myo0) format("woff2"), url(https://dbrand.com/sites/all/themes/dbrand_v3/fonts/base/b95110624b7bdb32854fa0b1df7af310.woff?q4myo0) format("woff")
+    src: url(Fonts/300s.woff2) format("woff2"), url(Fonts/300s.woff) format("woff")
 }
 @font-face {
     font-family: dbf-base;
     font-style: italic;
     font-weight: 400;
     font-display: fallback;
-    src: url(https://dbrand.com/sites/all/themes/dbrand_v3/fonts/base/bb6774529263437d3c87ed8de88c71a8.woff2?q4myo0) format("woff2"), url(https://dbrand.com/sites/all/themes/dbrand_v3/fonts/base/7dec134667027c051b4d3990dc566cde.woff?q4myo0) format("woff")
+    src: url(Fonts/400s.woff2) format("woff2"), url(Fonts/400s.woff) format("woff")
 }
 @font-face {
     font-family: dbf-base;
     font-style: normal;
     font-weight: 500;
     font-display: fallback;
-    src: url(https://dbrand.com/sites/all/themes/dbrand_v3/fonts/base/9dd54aeef2f9e3236de18ceb53c37bee.woff2?q4myo0) format("woff2"), url(https://dbrand.com/sites/all/themes/dbrand_v3/fonts/base/08fbc3d4ce8d14e755e893e21a92a814.woff?q4myo0) format("woff")
+    src: url(Fonts/500.woff2) format("woff2"), url(Fonts/500.woff) format("woff")
 }
 @font-face {
     font-family: dbf-base;
     font-style: italic;
     font-weight: 500;
     font-display: fallback;
-    src: url(https://dbrand.com/sites/all/themes/dbrand_v3/fonts/base/dadb973124dc1473cdaf6b5ff663b237.woff2?q4myo0) format("woff2"), url(https://dbrand.com/sites/all/themes/dbrand_v3/fonts/base/9e4e680aeb00c184513a3c875d11da68.woff?q4myo0) format("woff")
+    src: url(Fonts/500s.woff2) format("woff2"), url(Fonts/500s.woff) format("woff")
 }
 @font-face {
     font-family: dbf-base;
     font-style: normal;
     font-weight: 600;
     font-display: fallback;
-    src: url(https://dbrand.com/sites/all/themes/dbrand_v3/fonts/base/d1ec5b58b4ebe4f2b499bf13505074c3.woff2?q4myo0) format("woff2"), url(https://dbrand.com/sites/all/themes/dbrand_v3/fonts/base/29579691ee889769533f37bb6ffc3f57.woff?q4myo0) format("woff")
+    src: url(Fonts/600.woff2) format("woff2"), url(Fonts/600.woff) format("woff")
 }
 @font-face {
     font-family: dbf-base;
     font-style: italic;
     font-weight: 600;
     font-display: fallback;
-    src: url(https://dbrand.com/sites/all/themes/dbrand_v3/fonts/base/1c8a4315c2e5f1b519512bc35a4817dd.woff2?q4myo0) format("woff2"), url(https://dbrand.com/sites/all/themes/dbrand_v3/fonts/base/e1995099058af69834cd71176285dc7b.woff?q4myo0) format("woff")
+    src: url(Fonts/600s.woff2) format("woff2"), url(Fonts/600s.woff) format("woff")
 }
 @font-face {
     font-family: dbf-base;
     font-style: normal;
     font-weight: 700;
     font-display: fallback;
-    src: url(https://dbrand.com/sites/all/themes/dbrand_v3/fonts/base/2e10914011bb2622530f447319c44304.woff2?q4myo0) format("woff2"), url(https://dbrand.com/sites/all/themes/dbrand_v3/fonts/base/e822ee0b38384b2d14f6ee0c1e18a5cf.woff?q4myo0) format("woff")
+    src: url(Fonts/700.woff2) format("woff2"), url(Fonts/700.woff) format("woff")
 }
 @font-face {
     font-family: dbf-base;
     font-style: italic;
     font-weight: 700;
     font-display: fallback;
-    src: url(https://dbrand.com/sites/all/themes/dbrand_v3/fonts/base/7b2271f23affca64e5316a051c5360e4.woff2?q4myo0) format("woff2"), url(https://dbrand.com/sites/all/themes/dbrand_v3/fonts/base/559df554238069c6ebefe4d5fb3adf2f.woff?q4myo0) format("woff")
+    src: url(Fonts/700s.woff2) format("woff2"), url(Fonts/700s.woff) format("woff")
 }
 @font-face {
     font-family: dbf-base;
     font-style: normal;
     font-weight: 800;
     font-display: fallback;
-    src: url(https://dbrand.com/sites/all/themes/dbrand_v3/fonts/base/55c9cb69d01a32fe61a7e9c26fe65692.woff2?q4myo0) format("woff2"), url(https://dbrand.com/sites/all/themes/dbrand_v3/fonts/base/ed6bb56f3e0a58edce4bca3e28aba624.woff?q4myo0) format("woff")
+    src: url(Fonts/800.woff2) format("woff2"), url(Fonts/800.woff) format("woff")
 }
 @font-face {
     font-family: dbf-base;
     font-style: italic;
     font-weight: 800;
     font-display: fallback;
-    src: url(https://dbrand.com/sites/all/themes/dbrand_v3/fonts/base/15bb1e564f61afe2d59171348a28913b.woff2?q4myo0) format("woff2"), url(https://dbrand.com/sites/all/themes/dbrand_v3/fonts/base/610cb49fdf6c341fc1d6c00eb0235e69.woff?q4myo0) format("woff")
+    src: url(Fonts/800s.woff2) format("woff2"), url(Fonts/800s.woff) format("woff")
 }
 @font-face {
     font-family: dbf-base;
     font-style: normal;
     font-weight: 900;
     font-display: fallback;
-    src: url(https://dbrand.com/sites/all/themes/dbrand_v3/fonts/base/f7ee3fc7c3d35613de407a262e501b00.woff2?q4myo0) format("woff2"), url(https://dbrand.com/sites/all/themes/dbrand_v3/fonts/base/3125d8d84bd7fbe7714afd1614ae4235.woff?q4myo0) format("woff")
+    src: url(Fonts/900.woff2) format("woff2"), url(Fonts/900.woff) format("woff")
 }
 @font-face {
     font-family: dbf-base;
     font-style: italic;
     font-weight: 900;
     font-display: fallback;
-    src: url(https://dbrand.com/sites/all/themes/dbrand_v3/fonts/base/dcaa4b22c4846283014492cb6a45370f.woff2?q4myo0) format("woff2"), url(https://dbrand.com/sites/all/themes/dbrand_v3/fonts/base/47a38058af8d7221409aa0f2e76ca083.woff?q4myo0) format("woff")
+    src: url(Fonts/900s.woff2) format("woff2"), url(Fonts/900s.woff) format("woff")
 }
-@font-face {
-    font-family: dbicons;
-    font-style: normal;
-    font-weight: 400;
-    font-display: swap;
-    src: url(https://dbrand.com/sites/all/themes/dbrand_v3/fonts/db-icons/db-icons.woff2?px6tw0) format("woff2"), url(https://dbrand.com/sites/all/themes/dbrand_v3/fonts/db-icons/db-icons.woff?px6tw0) format("woff")
-}
+
 .icn {
     font-family: dbicons, dbf-base, Arial, Verdana, sans-serif;
     font-style: normal;

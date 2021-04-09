@@ -4,14 +4,14 @@
     font-style: normal;
     font-weight: 200;
     font-display: fallback;
-    src: url(https://dbrand.com/sites/all/themes/dbrand_v3/dist/fonts/931bfb9c42809edf1859a272812f860f.woff2) format("woff2"), url(https://dbrand.com/sites/all/themes/dbrand_v3/dist/fonts/864a08471c0a27e2a348667a3e0121bc.woff) format("woff")
+    src: url(Fonts/200T.woff2) format("woff2"), url(Fonts/200T.woff) format("woff")
 }
 @font-face {
     font-family: DbrandGlassText;
     font-style: normal;
     font-weight: 400;
     font-display: fallback;
-    src: url(https://dbrand.com/sites/all/themes/dbrand_v3/dist/fonts/05641d6dc9f79588d425e7786f48fdfa.woff2) format("woff2"), url(https://dbrand.com/sites/all/themes/dbrand_v3/dist/fonts/e5997328820c2877135ca7ac237651eb.woff) format("woff")
+    src: url(Fonts/400TX.woff2) format("woff2"), url(Fonts/400TX.woff) format("woff")
 }
 .web-printed-skins-display-blocks--dbrand-glass, .web-printed-skins-display-blocks--dbrand-glass .web-displayblock .title {
     font-family:Helvetica;
