@@ -4,14 +4,15 @@
     font-style: normal;
     font-weight: 200;
     font-display: fallback;
-    src: url(Fonts/200T.woff2) format("woff2"), url(Fonts/200T.woff) format("woff")
+    src: url(../dist/css/Fonts/200T.woff2) format("woff2"), url(../dist/css/Fonts/200T.woff) format("woff")
     }
+
 @font-face {
     font-family: ThunderText;
     font-style: normal;
     font-weight: 400;
     font-display: fallback;
-    src: url(Fonts/400TX.woff2) format("woff2"), url(Fonts/400TX.woff) format("woff")
+    src: url(../dist/css/Fonts/400TX.woff2) format("woff2"), url(../dist/css/Fonts/400TX.woff) format("woff")
     }
 
 /*CSS der Seite im Allgemeinen*/    
@@ -32,7 +33,15 @@ body {
     letter-spacing: 0;
     line-height: .9;
     text-transform: none
-    }    
+    }
+    
+.first-section h1{
+    font-size: 350%;
+    }
+
+.first-section h3{
+    font-size: 250%;
+    }
 
 .first-section p, ol{
     font-family: ThunderText, Helvetica, Arial, sans-serif;
@@ -59,8 +68,12 @@ body {
     }
 
 .first-sec p {
-    text-align: justify;
+    text-align: left;
     margin-top: 10px;
+    }
+
+.first-sec li{
+    margin-left: 10px;
     }
 
 /*CSS für den Inhalt der Seite*/
@@ -116,6 +129,10 @@ body {
     grid-row: 3 / 3;
     grid-column: 3 / 3;
     background-color: #3aafa9;
+    }
+
+.firmengeschichte p{
+    text-align: center;
     }
 
 .filler_right{
