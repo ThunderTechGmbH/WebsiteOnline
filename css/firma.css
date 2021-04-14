@@ -29,18 +29,10 @@ body {
     
 .first-section h1, h2, h3, h4{
     font-family: ThunderTitle, Helvetica, Arial, sans-serif;
-    font-weight: 200;
+    font-weight: 900;
     letter-spacing: 0;
     line-height: .9;
     text-transform: none
-    }
-    
-.first-section h1{
-    font-size: 350%;
-    }
-
-.first-section h3{
-    font-size: 250%;
     }
 
 .first-section p, ol{
@@ -58,6 +50,7 @@ body {
 .first-sec h1 {
     text-align: left;
     margin-bottom: 10px;
+    font-size: 350%;
     }
 
 .first-sec h3 {
@@ -65,11 +58,17 @@ body {
 	margin-left: 15px;
 	margin-right: 15px;
 	margin-bottom: 5px;
+    font-size: 250%;
     }
 
 .first-sec p {
     text-align: left;
     margin-top: 10px;
+    padding-top: 25px;
+    }
+
+.first-sec ol{
+    padding-top: 5px;
     }
 
 .first-sec li{
@@ -117,6 +116,7 @@ body {
     grid-row: 1 / 1;
     grid-column: 3 / 3;
     height: auto;
+    padding-bottom: 100px;
     }
 
 .filler_left{
@@ -129,6 +129,8 @@ body {
     grid-row: 3 / 3;
     grid-column: 3 / 3;
     background-color: #3aafa9;
+    padding-top: 100px;
+    padding-bottom: 100px;
     }
 
 .firmengeschichte p{
@@ -145,63 +147,61 @@ body {
 /*CSS für nicht Mobile Geräte*/
 .darstellung_unser_standort{
     display: grid;
-    grid-template-rows: 40px 480px;
+    grid-template-rows: auto 480px auto;
     grid-template-columns: auto 300px 640px auto;
     grid-row: 2 / 2;
     background-color: var(--light);
-    height: 570px;
+    height: auto;
+    padding-top: 100px;
+    padding-bottom: 100px;
     }
 
 /*CSS für Mobile Geräte*/
 @media (min-width: 280px){
     .darstellung_unser_standort{
-        grid-template-rows: 20px 120px;
+        grid-template-rows: auto 120px auto;
         grid-template-columns: auto 75px 160px auto;
-        height: 142.5px;
         }
     }
 
 /*CSS für Zwischen Schritte zum Full Bildschirm*/     
 @media (min-width: 440px){
     .darstellung_unser_standort{
-        grid-template-rows: 24px 192px;
+        grid-template-rows: auto 192px auto;
         grid-template-columns: auto 120px 256px auto;
-        height: 228px;
         }
     }
    
 @media (min-width: 600px){
     .darstellung_unser_standort{
-        grid-template-rows: 28px 264px;
+        grid-template-rows: auto 264px auto;
         grid-template-columns: auto 165px 352px auto;
-        height: 313.5px;
         }
     }
 
 @media  (min-width: 760px){
     .darstellung_unser_standort{
-        grid-template-rows: 32px 336px;
+        grid-template-rows: auto 336px auto;
         grid-template-columns: auto 210px 448px auto;
-        height: 399px;
         }
     }
     
 @media (min-width: 920px){
     .darstellung_unser_standort{
-        grid-template-rows: 36px 408px;
+        grid-template-rows: auto 408px auto;
         grid-template-columns: auto 255px 544px auto;
-        height: 484.5px;
         }
     }
 
 @media (min-width: 1080px){
     .darstellung_unser_standort{
-        grid-template-rows: 40px 480px;
+        grid-template-rows: auto 480px auto; 
         grid-template-columns: auto 300px 640px auto;
-        height: 570px;
         }
     }
 
+
+/*CSS für nicht Mobile Geräte*/ 
 .darstellung_unser_standort h3{
     margin-top: 5px;
 	margin-left: 15px;
@@ -224,6 +224,7 @@ body {
         }
     }
 
+/*CSS für Zwischen Schritte zum Full Bildschirm*/    
 @media (min-width: 440px) {
     .darstellung_unser_standort p{
         font-size: 80%;
@@ -262,52 +263,7 @@ body {
         margin-top: 15px;
         margin-left: 15px;
         }
-    }
-
-/*CSS für nicht Mobile Geräte*/      
-.unser_standort_ueberschrift{
-    grid-row: 1 / 1;
-    grid-column: 1 / 4;
-    height: 40px;
-    }
-
-/*CSS für Mobile Geräte*/    
-@media (min-width: 280px){
-    .unser_standort_ueberschrift{
-        height: 20px;
-        }
-    }
-
-/*CSS für Zwischen Schritte zum Full Bildschirm*/    
-@media (min-width: 440px){
-    .unser_standort_ueberschrift{
-        height: 24px;
-        }
-    }
-    
-@media (min-width: 600px){
-    .unser_standort_ueberschrift{
-        height: 28px;
-        }
-    }
-
-@media (min-width: 760px){
-    .unser_standort_ueberschrift{
-        height: 32px;
-        }
-    }
-
-@media (min-width: 920px){
-    .unser_standort_ueberschrift{
-        height: 36px;
-        }
-    }
-
-@media (min-width: 1080px){
-    .unser_standort_ueberschrift{
-        height: 40px;
-        }
-    }    
+    }   
 
 /*CSS für nicht Mobile Geräte*/    
 .unser_standort_inhalt{
@@ -474,6 +430,8 @@ body {
     grid-template-columns: auto auto 500px auto auto;
     grid-row: 3 / 3;
     background-color: #3aafa9;
+    padding-top: 100px;
+    padding-bottom: 100px;
     }
 
 /*Darstellung für Handys*/    
@@ -510,6 +468,12 @@ body {
 .darstellung_mitarbeiterkarten p{
     margin-top: 15px;
     margin-left: 15px;
+    }
+
+h4.main_ueberschrift{
+    text-align: center;
+    font-size: 150%;
+    padding-bottom: 25px;
     }
 
 /*CSS für Mobile Geräte*/
