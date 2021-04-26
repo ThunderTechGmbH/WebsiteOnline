@@ -1,5 +1,24 @@
+/*Hier findet man die Font*/    
+@font-face {
+    font-family: ThunderTitle;
+    font-style: normal;
+    font-weight: 200;
+    font-display: fallback;
+    src: url(../dist/css/Fonts/200T.woff2) format("woff2"), url(../dist/css/Fonts/200T.woff) format("woff")
+    }
+
+@font-face {
+    font-family: ThunderText;
+    font-style: normal;
+    font-weight: 400;
+    font-display: fallback;
+    src: url(../dist/css/Fonts/400TX.woff2) format("woff2"), url(../dist/css/Fonts/400TX.woff) format("woff")
+    }
+
+/*CSS der Seite im Allgemeinen*/    
 body {
     color: black;
+    hyphens: auto;
     }
 
 .first-section{
@@ -7,16 +26,31 @@ body {
     grid-template-rows: auto auto auto auto 50px;
     height: auto !important;
     }
+    
+.first-section h1, h2, h3, h4{
+    font-family: ThunderTitle, Helvetica, Arial, sans-serif;
+    font-weight: 900;
+    letter-spacing: 0;
+    line-height: .9;
+    text-transform: none
+    }
 
-/*CSS für die Seite Allgemein*/    
+.first-section p, ol{
+    font-family: ThunderText, Helvetica, Arial, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.25
+    }
+
 .first-sec{
-    height: auto;
     grid-row: 1 / 1;
+    height: auto;
     }
 
 .first-sec h1 {
     text-align: left;
     margin-bottom: 10px;
+    font-size: 350%;
     }
 
 .first-sec h3 {
@@ -24,17 +58,48 @@ body {
 	margin-left: 15px;
 	margin-right: 15px;
 	margin-bottom: 5px;
+    font-size: 250%;
     }
 
 .first-sec p {
     text-align: left;
     margin-top: 10px;
+    padding-top: 25px;
     }
 
-/*CSS für den Inhalt der Seite*/    
+.first-sec ol{
+    padding-top: 5px;
+    }
+
+.first-sec li{
+    margin-left: 10px;
+    }
+
+/*CSS für den Inhalt der Seite*/
+/*CSS für nicht Mobile Geräte*/    
 .inhalt{
     display: grid;
+    grid-template-columns: auto auto 400px auto auto;
     grid-template-rows: auto 10px auto;
+    }
+
+/*CSS für Mobile Geräte*/
+@media (min-width: 280px){
+    .inhalt{
+        grid-template-columns: auto auto 200px auto auto;
+        }
+    }
+
+@media (min-width: 440px){
+    .inhalt{
+        grid-template-columns: auto auto 300px auto auto;
+        }
+    }
+
+@media (min-width: 600px) {
+    .inhalt{
+        grid-template-columns: auto auto 400px auto auto;
+        }
     }
 
 .inhalt ol{
@@ -49,11 +114,32 @@ body {
 
 .einleitung{
     grid-row: 1 / 1;
+    grid-column: 3 / 3;
     height: auto;
+    padding-bottom: 100px;
+    }
+
+.filler_left{
+    grid-row: 3 / 3;
+    grid-column: 1 / 3;
+    background-color: #3aafa9;
     }
     
 .firmengeschichte{
     grid-row: 3 / 3;
+    grid-column: 3 / 3;
+    background-color: #3aafa9;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    }
+
+.firmengeschichte p{
+    text-align: center;
+    }
+
+.filler_right{
+    grid-row: 3 / 3;
+    grid-column: 4 / 6;
     background-color: #3aafa9;
     }
 
@@ -61,63 +147,61 @@ body {
 /*CSS für nicht Mobile Geräte*/
 .darstellung_unser_standort{
     display: grid;
-    grid-template-rows: 40px 480px;
+    grid-template-rows: auto 480px auto;
     grid-template-columns: auto 300px 640px auto;
     grid-row: 2 / 2;
     background-color: var(--light);
-    height: 570px;
+    height: auto;
+    padding-top: 100px;
+    padding-bottom: 100px;
     }
 
 /*CSS für Mobile Geräte*/
 @media (min-width: 280px){
     .darstellung_unser_standort{
-        grid-template-rows: 20px 120px;
+        grid-template-rows: auto 120px auto;
         grid-template-columns: auto 75px 160px auto;
-        height: 142.5px;
         }
     }
 
 /*CSS für Zwischen Schritte zum Full Bildschirm*/     
 @media (min-width: 440px){
     .darstellung_unser_standort{
-        grid-template-rows: 24px 192px;
+        grid-template-rows: auto 192px auto;
         grid-template-columns: auto 120px 256px auto;
-        height: 228px;
         }
     }
    
 @media (min-width: 600px){
     .darstellung_unser_standort{
-        grid-template-rows: 28px 264px;
+        grid-template-rows: auto 264px auto;
         grid-template-columns: auto 165px 352px auto;
-        height: 313.5px;
         }
     }
 
 @media  (min-width: 760px){
     .darstellung_unser_standort{
-        grid-template-rows: 32px 336px;
+        grid-template-rows: auto 336px auto;
         grid-template-columns: auto 210px 448px auto;
-        height: 399px;
         }
     }
     
 @media (min-width: 920px){
     .darstellung_unser_standort{
-        grid-template-rows: 36px 408px;
+        grid-template-rows: auto 408px auto;
         grid-template-columns: auto 255px 544px auto;
-        height: 484.5px;
         }
     }
 
 @media (min-width: 1080px){
     .darstellung_unser_standort{
-        grid-template-rows: 40px 480px;
+        grid-template-rows: auto 480px auto; 
         grid-template-columns: auto 300px 640px auto;
-        height: 570px;
         }
     }
 
+
+/*CSS für nicht Mobile Geräte*/ 
 .darstellung_unser_standort h3{
     margin-top: 5px;
 	margin-left: 15px;
@@ -125,55 +209,61 @@ body {
 	margin-bottom: 5px;
     }
 
+/*CSS für nicht Mobile Geräte*/ 
 .darstellung_unser_standort p{
     margin-top: 15px;
     margin-left: 15px;
     }
 
-/*CSS für nicht Mobile Geräte*/      
-.unser_standort_ueberschrift{
-    grid-row: 1 / 1;
-    grid-column: 1 / 4;
-    height: 40px;
-    }
-
-/*CSS für Mobile Geräte*/    
-@media (min-width: 280px){
-    .unser_standort_ueberschrift{
-        height: 20px;
+/*CSS für Mobile Geräte*/
+@media (min-width: 280px) {
+    .darstellung_unser_standort p{
+        font-size: 75%;
+        margin-top: 3.75px;
+        margin-left: 3.75px;
         }
     }
 
 /*CSS für Zwischen Schritte zum Full Bildschirm*/    
-@media (min-width: 440px){
-    .unser_standort_ueberschrift{
-        height: 24px;
+@media (min-width: 440px) {
+    .darstellung_unser_standort p{
+        font-size: 80%;
+        margin-top: 6px;
+        margin-left: 6px;
         }
     }
-    
+
 @media (min-width: 600px){
-    .unser_standort_ueberschrift{
-        height: 28px;
+    .darstellung_unser_standort p{
+        font-size: 85%;
+        margin-top: 8.25px;
+        margin-left: 8.25px;
         }
     }
 
 @media (min-width: 760px){
-    .unser_standort_ueberschrift{
-        height: 32px;
+    .darstellung_unser_standort p{
+        font-size: 90%;
+        margin-top: 10.5px;
+        margin-left: 10.5px;
         }
     }
 
 @media (min-width: 920px){
-    .unser_standort_ueberschrift{
-        height: 36px;
+    .darstellung_unser_standort p{
+        font-size: 95%;
+        margin-top: 12.75px;
+        margin-left: 12.75px;
         }
     }
 
 @media (min-width: 1080px){
-    .unser_standort_ueberschrift{
-        height: 40px;
+    .darstellung_unser_standort p{
+        font-size: 100%;
+        margin-top: 15px;
+        margin-left: 15px;
         }
-    }    
+    }   
 
 /*CSS für nicht Mobile Geräte*/    
 .unser_standort_inhalt{
@@ -283,6 +373,56 @@ body {
         }
     }
 
+/*CSS für nicht Mobile Geräte*/ 
+#map{
+    width: 640px;
+    height: 480px;
+    }
+
+/*CSS für Mobile Geräte*/    
+@media (min-width: 280px){
+    #map{
+        width: 160px;
+        height: 120px;
+        }
+    }
+
+/*CSS für Zwischen Schritte zum Full Bildschirm*/        
+@media (min-width: 440px){
+    #map{
+        width: 252px;
+        height: 192px;
+        }
+    }
+
+@media (min-width: 600px){
+    #map{
+        width: 344px;
+        height: 264px;
+        }
+    }
+
+@media (min-width: 760px){
+    #map{
+        width: 436px;
+        height: 336px;
+        }
+    }
+
+@media (min-width: 920px){
+    #map{
+        width: 528px;
+        height: 408px;
+        }
+    }
+
+@media (min-width: 1080px){
+    #map{
+        width: 640px;
+        height: 480px;
+        }
+    }
+
 /*CSS für die Darstellung der Mitarbeiter*/
 /*CSS für nicht Mobile Geräte*/
 .darstellung_mitarbeiterkarten {
@@ -290,6 +430,8 @@ body {
     grid-template-columns: auto auto 500px auto auto;
     grid-row: 3 / 3;
     background-color: #3aafa9;
+    padding-top: 100px;
+    padding-bottom: 100px;
     }
 
 /*Darstellung für Handys*/    
@@ -326,6 +468,12 @@ body {
 .darstellung_mitarbeiterkarten p{
     margin-top: 15px;
     margin-left: 15px;
+    }
+
+h4.main_ueberschrift{
+    text-align: center;
+    font-size: 150%;
+    padding-bottom: 25px;
     }
 
 /*CSS für Mobile Geräte*/
@@ -818,6 +966,26 @@ body {
     }
 
 /*CSS für Mobile Geräte*/
+@media (min-width: 280px){
+    .darstellung_leistungskarten {
+        grid-template-rows: 140px auto;
+        grid-template-columns: auto 280px auto;
+        }
+    }
+
+@media (min-width: 440px){
+    .darstellung_leistungskarten {
+        grid-template-rows: 140px auto;
+        grid-template-columns: auto 440px auto;
+        }
+    }
+
+@media (min-width: 600px){
+    .darstellung_leistungskarten {
+        grid-template-rows: 140px auto;
+        grid-template-columns: auto 600px auto;
+        }
+    }
 
 /*CSS für Bildschirme die eine breite von min 888px haben*/
 @media (min-width: 888px){
@@ -854,6 +1022,7 @@ body {
 .darstellung_leistungskarten h4{
     text-align: left;
     margin-left: 5px;
+    margin-right: 5px;
     }
 
 .darstellung_leistungskarten p {
@@ -866,7 +1035,7 @@ body {
     justify-content: center;
     text-align: center;
     font-size: 50px;
-    margin-top: 15;
+    margin-top: 15px;
     margin-left: -15px;
     }
 
@@ -875,7 +1044,7 @@ body {
 /*CSS für nicht Mobile Geräte*/    
 .ueberschrift {
     grid-row: 1 / 1;
-    grid-column: 1 / 3;
+    grid-column: 1 / 4;
     }
 
 /*CSS für Mobile Geräte*/
@@ -894,6 +1063,26 @@ body {
     }    
 
 /*CSS für Mobile Geräte*/
+@media (min-width: 280px) {
+    .leistungskartengruppe {
+        grid-template-columns: repeat(1, 50px 172px 50px);
+        grid-template-rows: repeat(8, 50px 363px 50px);
+        }
+    }
+
+@media (min-width: 440px) {
+    .leistungskartengruppe {
+        grid-template-columns: repeat(1, 50px 258px 50px);
+        grid-template-rows: repeat(8, 50px 302.5px 50px);
+        }
+    }
+
+@media (min-width: 600px) {
+    .leistungskartengruppe {
+        grid-template-columns: repeat(1, 50px 344px 50px);
+        grid-template-rows: repeat(8, 50px 242px 50px);
+        }
+    }
 
 /*CSS für Bildschirme die eine breite von min 888px haben*/
 @media (min-width: 888px){
@@ -934,12 +1123,32 @@ body {
     }
 
 /*CSS für Mobile Geräte*/
+@media (min-width: 280px){
+    .leistungskarte1, .leistungskarte2, .leistungskarte3, .leistungskarte4,
+    .leistungskarte5, .leistungskarte6, .leistungskarte7, .leistungskarte8 {
+        height: 363px;
+        }
+    }
+
+@media (min-width: 440px) {
+    .leistungskarte1, .leistungskarte2, .leistungskarte3, .leistungskarte4,
+    .leistungskarte5, .leistungskarte6, .leistungskarte7, .leistungskarte8 {
+        height: 302.5px;
+        }
+    }
+
+@media (min-width: 600px) {
+    .leistungskarte1, .leistungskarte2, .leistungskarte3, .leistungskarte4,
+    .leistungskarte5, .leistungskarte6, .leistungskarte7, .leistungskarte8 {
+        height: 242px;
+        }
+    }
 
 /*CSS für nicht Mobile Geräte*/
 /*Reihe 1: Nummer 1*/
 .leistungskarte1{
     grid-column:  2 / 2;
-    grid-row: 2 /2;
+    grid-row: 2 / 2;
     }
 
 /*CSS für nicht Mobile Geräte*/
@@ -950,6 +1159,20 @@ body {
     }
 
 /*CSS für Mobile Geräte*/
+/*Reihe 2: Nummer 1*/
+@media (min-width: 280px) {
+    .leistungskarte2{
+        grid-column: 2 / 2;
+        grid-row: 5 / 5;
+        }
+    }
+
+@media (min-width: 888px) {
+    .leistungskarte2{
+        grid-column: 5 / 5;
+        grid-row: 2 / 2;
+        }
+    }
 
 /*CSS für nicht Mobile Geräte*/    
 /*Reihe 1: Nummer 3*/
@@ -959,6 +1182,13 @@ body {
     }
 
 /*CSS für Mobile Geräte*/
+/*Reihe 3: Nummer 1*/
+@media (min-width: 280px) {
+    .leistungskarte3{
+        grid-column: 2 / 2;
+        grid-row: 8 / 8;
+        }
+    }
 
 /*CSS für Bildschirme die eine breite von min 888px haben*/
 /*Reihe 2: Nummer 1*/
@@ -995,6 +1225,13 @@ body {
     }
 
 /*CSS für Mobile Geräte*/
+/*Reihe 4: Nummer 1*/
+@media (min-width: 280px) {
+    .leistungskarte4{
+        grid-column: 2 / 2;
+        grid-row: 11 / 11;
+        }
+    }
 
 /*CSS für Bildschirme die eine breite von min 888px haben*/
 /*Reihe 2: Nummer 2*/
@@ -1031,6 +1268,13 @@ body {
     }
 
 /*CSS für Mobile Geräte*/
+/*Reihe 5: Nummer 1*/
+@media (min-width: 280px) {
+    .leistungskarte5{
+        grid-column: 2 / 2;
+        grid-row: 14 / 14;
+        }
+    }
 
 /*CSS für Bildschirme die eine breite von min 888px haben*/
 /*Reihe 3: Nummer 1*/
@@ -1067,6 +1311,13 @@ body {
     }
 
 /*CSS für Mobile Geräte*/
+/*Reihe 6: Nummer 1*/
+@media (min-width: 280px) {
+    .leistungskarte6{
+        grid-column: 2 / 2;
+        grid-row: 17 / 17;
+        }
+    }
 
 /*CSS für Bildschirme die eine breite von min 888px haben*/
 /*Reihe 3: Nummer 2*/
@@ -1103,6 +1354,12 @@ body {
     }
 
 /*CSS für Mobile Geräte*/
+@media (min-width: 280px){
+    .leistungskarte7{
+        grid-column: 2 / 2;
+        grid-row: 20 / 20;
+        }
+    }
 
 /*CSS für Bildschirme die eine breite von min 888px haben*/
 /*Reihe 4: Nummer 1*/
@@ -1139,6 +1396,13 @@ body {
     }
 
 /*CSS für Mobile Geräte*/
+/*Reihe 8: Nummer 1*/
+@media (min-width: 280px) {
+    .leistungskarte8{
+        grid-column: 2 / 2;
+        grid-row: 23 / 23;
+        }
+    }
 
 /*CSS für Bildschirme die eine breite von min 888px haben*/
 /*Reihe 4: Nummer 2*/
@@ -1167,8 +1431,6 @@ body {
         }
     }
 
-/*CSS für Mobile Geräte*/
-
 /*CSS für nicht Mobile Geräte*/    
 .karte_bild {
     grid-column: 1 / 1;
@@ -1187,7 +1449,7 @@ body {
 .karte_ueberschrift {
     grid-column: 2 / 3;
     grid-row: 2 / 2 ;
-    width: 281px;
+    width: 282px;
     height: 62px;
     display: flex;
     align-items: center;
@@ -1196,6 +1458,23 @@ body {
     }
 
 /*CSS für Mobile Geräte*/
+@media (min-width: 280px){
+    .karte_ueberschrift{
+        width: 110px;
+        }    
+    }
+
+@media (min-width: 440px){
+    .karte_ueberschrift{
+        width: 196px;
+        }
+    }
+
+@media (min-width: 600px){
+    .karte_ueberschrift{
+        width: 282px;
+        }
+    }
 
 /*CSS für nicht Mobile Geräte*/    
 .karte_inhalt {
@@ -1208,6 +1487,23 @@ body {
     }
 
 /*CSS für Mobile Geräte*/
+@media (min-width: 280px){
+    .karte_inhalt{
+        width: 172px;
+        }
+    }
+
+@media (min-width: 440px){
+    .karte_inhalt{
+        width: 258px;
+        }
+    }
+
+@media (min-width: 600px){
+    .karte_inhalt{
+        width: 344px;
+        }
+    }
 
 /*CSS für nicht Mobile Geräte*/    
 .karte_inhalt p {
